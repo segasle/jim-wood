@@ -28,14 +28,14 @@
         <div class="row">
             <div class="col-xl-2 col-xs-12">
                 <div class="logo">
-
+                    <a href="/"><img src="" alt=""></a>
                 </div>
             </div>
             <div class="col-xl-10 col-xs-12">
                 <div class="menu">
                     <input type="checkbox" id="checkbox">
                     <label class="burger label-none" for="checkbox">
-                        <div class="burger_open"></div>
+                        <div class="burger_open  fas fa-align-justify"></div>
                     </label>
                     <nav>
                         <ul>
