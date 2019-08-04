@@ -1,11 +1,12 @@
 @cr: #000;
 @bg: #fff;
 @hover: #068a1b;
-*{
+* {
   padding: 0;
   margin: 0;
 }
-body{
+
+body {
   font-size: 16px;
   font-family: sans-serif;
   font-weight: normal;
@@ -29,8 +30,9 @@ div {
     display: block;
   }
 }
-.label{
-  &-none{
+
+.label {
+  &-none {
 
     cursor: pointer;
     z-index: 2;
@@ -38,22 +40,31 @@ div {
     display: block;
   }
 }
-.menu{
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
   .burger {
     width: 50px;
     height: 50px;
     position: absolute;
     //left: 10px;
-   // top: 12px;
+    // top: 12px;
   }
 
   #checkbox {
     display: none;
+
     &:checked ~ nav {
       display: block;
-   //   animation: burger 1s;
+      //   animation: burger 1s;
     }
   }
+
   nav {
     display: none;
     width: 100%;
@@ -77,6 +88,7 @@ div {
           display: block;
           text-decoration: none;
           padding: 12px 0;
+
           &:hover {
             color: @hover;
           }
@@ -84,29 +96,33 @@ div {
       }
     }
   }
-  }
+}
 
 @media (min-width: 1024px) {
-  .fa{
-    &-align{
-      &-justify{
+  .fa {
+    &-align {
+      &-justify {
         display: none;
       }
     }
   }
-  .menu{
-    .burger{
+
+  .menu {
+    .burger {
       width: inherit;
       height: inherit;
     }
-    nav{
+
+    nav {
       top: 0;
       display: block;
-      ul{
-        li{
+
+      ul {
+        li {
           padding: 0 20px;
           float: left;
-          a{
+
+          a {
             font-weight: bold;
           }
         }
