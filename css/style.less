@@ -33,14 +33,19 @@ div {
 
 .label {
   &-none {
-
     cursor: pointer;
     z-index: 2;
     position: absolute;
     display: block;
   }
 }
-
+button.modal{
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+}
 header {
   position: fixed;
   top: 0;
@@ -97,7 +102,10 @@ header {
     }
   }
 }
-
+.cellar{
+  background: black;
+  height: 20px;
+}
 @media (min-width: 1024px) {
   .fa {
     &-align {
