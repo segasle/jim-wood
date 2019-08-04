@@ -17,6 +17,9 @@
           content="<?php //echo $keywords; ?>">
     <meta name="description" content="<?php //echo $description; ?>">
     <title><?php //echo $title; ?></title>
+
+    <link rel="stylesheet" href="icons/css/all.css">
+    <link rel="stylesheet" href="icons/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" href="img/logo.png" type="image/png">
@@ -35,7 +38,7 @@
                 <div class="menu">
                     <input type="checkbox" id="checkbox">
                     <label class="burger label-none" for="checkbox">
-                        <div class="burger_open  fas fa-align-justify"></div>
+                        <div class="fas fa-align-justify fa-2x"></div>
                     </label>
                     <nav>
                         <ul>
