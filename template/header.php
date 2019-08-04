@@ -68,9 +68,15 @@
                     <nav>
                         <ul>
                             <?php
+                            $active ='';
+                            $url = basename($_SERVER['REQUEST_URI']);
                               $menu =  do_query("SELECT * FROM `menu`");
                               foreach ($menu as $item){
-                                  echo '<li><a href="'.$item['url'].'">'.$item['title'].'</a></li>';
+                                  if ($item['url'] = $url){
+                                      $active = 'active';
+                                  }
+
+                                  echo '<li><a class="'.$active.'" href="'.$item['url'].'">'.$item['title'].'</a></li>';
                               }
                             ?>
                         </ul>
