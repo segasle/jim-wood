@@ -39,17 +39,15 @@ div {
     display: block;
   }
 }
-button.mod{
 
+button.mod {
+  z-index: 9999;
   position: fixed;
   right: 0;
   top: 50%;
-//  width: 30px;
-  //height: 30px;
 }
+
 header {
-//  position: fixed;
-  //top: 0;
   width: 100%;
 }
 
@@ -58,8 +56,6 @@ header {
     width: 50px;
     height: 50px;
     position: absolute;
-    //left: 10px;
-    // top: 12px;
   }
 
   #checkbox {
@@ -67,7 +63,6 @@ header {
 
     &:checked ~ nav {
       display: block;
-      //   animation: burger 1s;
     }
   }
 
@@ -88,7 +83,6 @@ header {
         font-size: 16px;
         padding-left: 10px;
 
-
         a {
           display: block;
           text-decoration: none;
@@ -98,11 +92,12 @@ header {
             color: @hover;
           }
         }
-        .noactive{
-          color: @cr;
 
+        .noactive {
+          color: @cr;
         }
-        .active{
+
+        .active {
           color: @hover;
 
         }
@@ -110,10 +105,15 @@ header {
     }
   }
 }
-.cellar{
+
+.content {
+}
+
+.cellar {
   background: black;
   height: 20px;
 }
+
 @media (min-width: 1024px) {
   .fa {
     &-align {

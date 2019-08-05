@@ -30,59 +30,60 @@
     <i class="fas fa-shopping-basket fa-2x"></i>
 </button>
 
-<!-- Modal -->
-<div class="container-fluid">
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
             </div>
         </div>
     </div>
-    <header>
-        <div class="row">
-            <div class="col-xl-2 col-xs-12">
-                <div class="logo">
-                    <a href="/"><img src="" alt=""></a>
-                </div>
-            </div>
-            <div class="col-xl-10 col-xs-12">
-                <div class="menu">
-                    <input type="checkbox" id="checkbox">
-                    <label class="burger label-none" for="checkbox">
-                        <div class="fas fa-align-justify fa-2x"></div>
-                    </label>
-                    <nav>
-                        <ul>
-                            <?php
-                            $active ='';
-                            $url = basename($_SERVER['REQUEST_URI']);
-                              $menu =  do_query("SELECT * FROM `menu`");
-                              foreach ($menu as $item){
-                                  if ($item['url'] === $url){
-                                      $active = 'active';
-                                  }else{
-                                      $active ='noactive';
-                                  }
+</div>
+<div class="container-fluid">
 
-                                  echo '<li><a class="'.$active.'" href="'.$item['url'].'">'.$item['title'].'</a></li>';
-                              }
-                            ?>
-                        </ul>
-                    </nav>
+    <header>
+        <div class="header">
+            <div class="row">
+                <div class="col-xl-2 col-xs-12">
+                    <div class="logo">
+                        <a href="/"><img src="" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-10 col-xs-12">
+                    <div class="menu">
+                        <input type="checkbox" id="checkbox">
+                        <label class="burger label-none" for="checkbox">
+                            <div class="fas fa-align-justify fa-2x"></div>
+                        </label>
+                        <nav>
+                            <ul>
+                                <?php
+                                $active ='';
+                                $url = basename($_SERVER['REQUEST_URI']);
+                                $menu =  do_query("SELECT * FROM `menu`");
+                                foreach ($menu as $item){
+                                    if ($item['url'] === $url){
+                                        $active = 'active';
+                                    }else{
+                                        $active ='noactive';
+                                    }
+
+                                    echo '<li><a class="'.$active.'" href="'.$item['url'].'">'.$item['title'].'</a></li>';
+                                }
+                                ?>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
