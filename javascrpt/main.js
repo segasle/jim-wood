@@ -1,3 +1,6 @@
+/**
+ * Подвал прижатый к внизу экрану
+ */
 $(function() {
 
     $("body").css({padding:0,margin:0});
@@ -17,6 +20,9 @@ $(function() {
     f();
 
 });
+/**
+ * Меню фикстровать повверх контента при скролле
+ */
 $(function($) {
     $(window).scroll(function(){
         if($(this).scrollTop()>0){
