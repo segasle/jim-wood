@@ -72,8 +72,10 @@
                             $url = basename($_SERVER['REQUEST_URI']);
                               $menu =  do_query("SELECT * FROM `menu`");
                               foreach ($menu as $item){
-                                  if ($item['url'] = $url){
+                                  if ($item['url'] === $url){
                                       $active = 'active';
+                                  }else{
+                                      $active ='noactive';
                                   }
 
                                   echo '<li><a class="'.$active.'" href="'.$item['url'].'">'.$item['title'].'</a></li>';
