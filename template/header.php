@@ -59,7 +59,8 @@
                                     Телефон
                                 </label>
                                 <div class="field__input">
-                                    <input class="form-control form-control-lg" type="text" id="xflexfield_288" name="phone" placeholder="+7 999 999 99 99" value="">
+                                    <input class="form-control form-control-lg" type="text" id="xflexfield_288"
+                                           name="phone" placeholder="+7 999 999 99 99" value="">
                                 </div>
                             </div>
                         </div>
@@ -90,13 +91,13 @@
                         </label>
                         <div class="field__input">
                             <div class="jq-file" id="xflexfield_213-styler">
-                                <div class="jq-file__name">Файл не выбран</div>
-                                <div class="jq-file__browse">Обзор...</div>
-                                <input data-file_cat_id="10" id="xflexfield_213" data-file_type="any" name="document1"
-                                       placeholder="" type="file">
-                                <input type="file" id="exampleInputFile" accept="image/jpeg,image/png" name="file" class="inputfile hide"
-                                       data-multiple-caption="{count} files selected" multiple> <label for="exampleInputFile"
-                                                                                                       class="btn-primary btn btn-default"><span>Выбрать</span></label>
+
+                                <input type="file" id="exampleInputFile" accept="image/jpeg,image/png" name="file"
+                                       class="inputfile hide"
+                                       data-multiple-caption="{count} files selected" multiple>
+                                <label
+                                        for="exampleInputFile"
+                                        class="btn-primary btn btn-default"><span>Выбрать</span></label>
                             </div>
                         </div>
                     </div>
@@ -107,7 +108,9 @@
                     <div class="row">
                         <div class="col-4">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg">Посчитать проект</button>
+                                <button type="submit" class="form__button button btn btn-success btn-lg">Посчитать
+                                    проект
+                                </button>
                             </div>
                         </div>
                         <div class="col-8">
