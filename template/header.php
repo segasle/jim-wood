@@ -40,11 +40,63 @@
                 </button>
             </div>
             <div class="modal-body">
-                ...
+                <form enctype="multipart/form-data" action="/requests/#form-form_mail" method="post" class="form js-ajax-form__form" id="form-form_mail" data-form_id="11" data-goal="">
+                    <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
+                        <label for="xflexfield_62" class="field__label">
+                            Ваше имя
+                        </label>
+                        <div class="field__input">
+                            <input placeholder="Андрей" name="person" value="" type="text" id="xflexfield_62" required="required">
+                        </div>
+                    </div>
+                    <div class="field form__field form__field--name_phone form__field--type_short_text js-ajax-form__field js-ajax-form__field--phone">
+                        <label for="xflexfield_288" class="field__label">
+                            Телефон
+                        </label>
+                        <div class="field__input">
+                            <input type="text" id="xflexfield_288" name="phone" placeholder="+7 999 999 99 99" value="">
+                        </div>
+                    </div>
+                    <div class="field form__field form__field--name_email form__field--type_short_text js-ajax-form__field js-ajax-form__field--email">
+                        <label for="xflexfield_289" class="field__label">
+                            E-mail
+                        </label>
+                        <div class="field__input">
+                            <input value="" name="email" placeholder="example@gmail.com" id="xflexfield_289" type="text">
+                        </div>
+                    </div>
+                    <div class="field form__field form__field--name_content form__field--type_long_text js-ajax-form__field js-ajax-form__field--content">
+                        <label for="xflexfield_61" class="field__label">
+                            Дополнительно
+                        </label>
+                        <div class="field__input">
+                            <textarea name="content" placeholder="Размер, материалы или описание" id="xflexfield_61"></textarea>
+                        </div>
+                    </div>
+                    <div class="field form__field form__field--name_document1 form__field--type_file js-ajax-form__field js-ajax-form__field--document1">
+                        <label for="xflexfield_213" class="field__label">
+                            Прикрепите файл (проект, рисунок или план)
+                        </label>
+                        <div class="field__input">
+                            <div class="jq-file" id="xflexfield_213-styler"><div class="jq-file__name">Файл не выбран</div><div class="jq-file__browse">Обзор...</div><input data-file_cat_id="10" id="xflexfield_213" data-file_type="any" name="document1" placeholder="" type="file"></div>
+                        </div>
+                    </div>
+
+
+
+                    <input type="hidden" name="_action" value="send_form">
+                    <input type="hidden" name="form_id" value="11">
+
+                    <div class="form__submit">
+                        <button type="submit" class="form__button button">Посчитать проект</button>
+                    </div>
+                    <div class="form__agreement form__field--name_agreement is-required js-ajax-form__field js-ajax-form__field--agreement">
+                        Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
             </div>
         </div>
     </div>
