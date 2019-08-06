@@ -53,7 +53,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-12 col-xl-6">
                             <div class="field form__field form__field--name_phone form__field--type_short_text js-ajax-form__field js-ajax-form__field--phone">
                                 <label for="xflexfield_288" class="field__label">
                                     Телефон
@@ -63,7 +63,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-xl-6">
                             <div class="field form__field form__field--name_email form__field--type_short_text js-ajax-form__field js-ajax-form__field--email">
                                 <label for="xflexfield_289" class="field__label">
                                     E-mail
