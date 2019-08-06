@@ -93,7 +93,11 @@
                                 <div class="jq-file__name">Файл не выбран</div>
                                 <div class="jq-file__browse">Обзор...</div>
                                 <input data-file_cat_id="10" id="xflexfield_213" data-file_type="any" name="document1"
-                                       placeholder="" type="file"></div>
+                                       placeholder="" type="file">
+                                <input type="file" id="exampleInputFile" accept="image/jpeg,image/png" name="file" class="inputfile hide"
+                                       data-multiple-caption="{count} files selected" multiple> <label for="exampleInputFile"
+                                                                                                       class="btn-primary btn btn-default"><span>Выбрать</span></label>
+                            </div>
                         </div>
                     </div>
 
