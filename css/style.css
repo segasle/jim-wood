@@ -103,6 +103,10 @@ header {
 .form__field {
   position: relative;
 }
+.form-control-lg {
+  padding: 25px 1rem;
+  line-height: 0.5;
+}
 .form .hide {
   width: 0.1px;
   height: 0.1px;
