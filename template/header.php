@@ -101,14 +101,10 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <input type="hidden" name="_action" value="send_form">
-                    <input type="hidden" name="form_id" value="11">
                     <div class="row">
                         <div class="col-4">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg">Посчитать
+                                <button type="submit" class="form__button button btn btn-success btn-lg" name="submit">Посчитать
                                     проект
                                 </button>
                             </div>
