@@ -95,6 +95,14 @@ header {
 .form .field {
   margin: 10px 0;
 }
+.form .field__label {
+  position: absolute;
+  left: 15px;
+  font-size: 13px;
+}
+.form__field {
+  position: relative;
+}
 .form .hide {
   width: 0.1px;
   height: 0.1px;

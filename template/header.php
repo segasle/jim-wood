@@ -97,7 +97,7 @@
                                        data-multiple-caption="{count} files selected" multiple>
                                 <label
                                         for="exampleInputFile"
-                                        class="btn-primary btn btn-default"><span>Выбрать</span></label>
+                                        class="btn-outline-secondary btn btn-default btn-lg btn-block"><span>Выбрать</span></label>
                             </div>
                         </div>
                     </div>
