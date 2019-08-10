@@ -1,4 +1,5 @@
 </div>
+</div>
 <footer>
     <div class="cellar">
 
@@ -17,4 +18,5 @@
 <script src="javascrpt/main.js"></script>
 <script src="javascrpt/function-form.js"></script>
 </body>
+
 </html>

@@ -115,6 +115,32 @@ header {
   position: absolute;
   z-index: -1;
 }
+.content .green {
+  background: green;
+}
+.carousel {
+  max-width: 1024px;
+  margin: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  top: 90%;
+  right: 80px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: antiquewhite;
+}
+.carousel-control-next {
+  right: 5px;
+}
+.carousel-control-prev {
+  left: initial;
+}
+.carousel-caption {
+  left: -20%;
+  right: initial;
+}
 .cellar {
   background: black;
   height: 20px;
@@ -129,6 +155,7 @@ header {
   }
   .menu nav {
     top: 0;
+    position: initial;
     display: block;
   }
   .menu nav ul li {

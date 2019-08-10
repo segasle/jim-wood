@@ -45,9 +45,12 @@ button.mod {
   position: fixed;
   right: 0;
   top: 50%;
+//  width: 30px;
+  //height: 30px;
 }
-
 header {
+//  position: fixed;
+  //top: 0;
   width: 100%;
 }
 .modal{
@@ -65,6 +68,8 @@ header {
     width: 50px;
     height: 50px;
     position: absolute;
+    //left: 10px;
+    // top: 12px;
   }
 
   #checkbox {
@@ -72,6 +77,7 @@ header {
 
     &:checked ~ nav {
       display: block;
+      //   animation: burger 1s;
     }
   }
 
@@ -91,6 +97,7 @@ header {
         text-align: left;
         font-size: 16px;
         padding-left: 10px;
+
 
         a {
           display: block;
@@ -144,13 +151,39 @@ header {
   }
 }
 .content {
+  .green{
+    background: green;
+  }
 }
+.carousel{
+  max-width: 1024px;
+  margin: auto;
+  &-control{
+    &-prev, &-next{
+      top: 90%;
+      right: 80px;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      background: antiquewhite;
+    }
+    &-next{
+      right: 5px;
+    }
+    &-prev{
+      left: initial;
 
+    }
+  }
+&-caption{
+  left: -20%;
+  right: initial;
+}
+}
 .cellar {
   background: black;
   height: 20px;
 }
-
 @media (min-width: 1024px) {
   .fa {
     &-align {
@@ -168,6 +201,7 @@ header {
 
     nav {
       top: 0;
+      position: initial;
       display: block;
 
       ul {
