@@ -52,7 +52,9 @@ header {
 //  position: fixed;
   //top: 0;
   width: 100%;
+  height: 200px;
 }
+
 .modal{
   &-dialog{
     max-width: 100%;
@@ -152,12 +154,13 @@ header {
 }
 .content {
   .green{
-    background: green;
+    background: rgba(6, 138, 27, 0.5);
   }
 }
 .carousel{
   max-width: 1024px;
   margin: auto;
+
   &-control{
     &-prev, &-next{
       top: 90%;
@@ -178,7 +181,15 @@ header {
 &-caption{
   left: -20%;
   right: initial;
+  top: 50%;
+  color: #ff253a;
 }
+  &-item{
+    max-height: 600px;
+    img{
+      background-size: cover;
+    }
+  }
 }
 .cellar {
   background: black;
