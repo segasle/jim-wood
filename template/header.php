@@ -264,4 +264,3 @@
         </div>
     </header>
     <div class="content ndra-container">
-        <div class="container-field">
