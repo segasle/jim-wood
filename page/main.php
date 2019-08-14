@@ -9,32 +9,54 @@ $text = '<div class="carousel-caption d-none d-md-block">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Первый слайд">
+                <div class="img">
+                    <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Первый слайд">
+
+                </div>
                 <?php echo $text; ?>
             </div>
 
 
             <div class="carousel-item   first">
-                <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд"> <?php echo $text; ?>
+                <div class="img">
+                    <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд">
+
+                </div>
+                <?php echo $text; ?>
 
             </div>
 
 
             <div class="carousel-item  first">
-                <img class="d-block w-100" src="/img/Mitrofanova.jpg" alt="Третий слайд"> <?php echo $text; ?>
+                <div class="img">
+                    <img class="d-block w-100" src="/img/Mitrofanova.jpg" alt="Третий слайд">
+
+                </div>
+                <?php echo $text; ?>
 
             </div>
             <div class="carousel-item  first">
-                <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд"> <?php echo $text; ?>
+<div class="img">
+    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
+
+</div>
+                <?php echo $text; ?>
 
             </div>
             <div class="carousel-item  first">
-                <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Третий слайд"> <?php echo $text; ?>
+                <div class="img">
+                    <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Третий слайд">
+
+                </div>
+                <?php echo $text; ?>
 
             </div>
 
             <div class="carousel-item none">
-                <img class="d-block w-100" src="/img/IMG_5771.jpg" alt="Второй слайдер">
+                <div class="img">
+                    <img class="d-block w-100" src="/img/IMG_5771.jpg" alt="Второй слайдер">
+
+                </div>
                 <div class="carousel-caption d-none d-md-block">
                     <p class="h3">
                         Молодой бренд с богатым прошлым и грандиозными планами
@@ -49,7 +71,10 @@ $text = '<div class="carousel-caption d-none d-md-block">
             </div>
 
             <div class="carousel-item none">
-                <img class="d-block w-100" src="/img/tub.jpg" alt="Второй слайдер">
+                <div class="img">
+                    <img class="d-block w-100" src="/img/tub.jpg" alt="Второй слайдер">
+
+                </div>
                 <div class="carousel-caption d-none d-md-block">
                     <p class="h3">Как нас найти? </p>
                     <p>

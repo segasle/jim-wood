@@ -144,14 +144,19 @@ header {
   right: initial;
   background: rgba(0, 0, 0, 0.5);
   height: min-content;
-  bottom: 0;
+  top: 20%;
   font-weight: bold;
 }
 .carousel-item {
   max-height: 600px;
 }
-.carousel-item img {
-  background-size: cover;
+.carousel-item .img {
+  float: right;
+  max-height: 400px;
+  width: 60%;
+}
+.carousel-item .img img {
+  background-size: contain;
 }
 .cellar {
   background: black;

@@ -200,15 +200,22 @@ header {
     right: initial;
     background: rgba(0,0,0,0.5);
     height: min-content;
-    bottom: 0;
+    top: 20%;
     font-weight: bold;
+
   }
 
   &-item {
     max-height: 600px;
 
-    img {
-      background-size: cover;
+    .img {
+      //background-size: cover;
+      float: right;
+      max-height: 400px;
+      width: 60%;
+      img{
+        background-size: contain;
+      }
     }
   }
 }
