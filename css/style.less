@@ -45,26 +45,29 @@ button.mod {
   position: fixed;
   right: 0;
   top: 50%;
-//  width: 30px;
+  //  width: 30px;
   //height: 30px;
 }
+
 header {
-//  position: fixed;
+  //  position: fixed;
   //top: 0;
   width: 100%;
   height: 200px;
 }
 
-.modal{
-  &-dialog{
+.modal {
+  &-dialog {
     max-width: 100%;
     height: 100%;
     margin: 0;
   }
-  &-content{
+
+  &-content {
     height: 100%;
   }
 }
+
 .menu {
   .burger {
     width: 50px;
@@ -123,27 +126,33 @@ header {
     }
   }
 }
-.form{
+
+.form {
   max-width: 768px;
   padding: 0 20px;
+
   .field {
     margin: 10px 0;
-    &__label{
+
+    &__label {
       position: absolute;
       left: 15px;
       font-size: 13px;
     }
   }
-  &__field{
+
+  &__field {
     position: relative;
   }
-  &-control{
-    &-lg{
+
+  &-control {
+    &-lg {
       padding: 25px 1rem;
       line-height: 0.5;
     }
   }
-  .hide{
+
+  .hide {
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
@@ -152,17 +161,19 @@ header {
     z-index: -1;
   }
 }
+
 .content {
-  .green{
+  .green {
     background: rgba(6, 138, 27, 0.5);
   }
 }
-.carousel{
+
+.carousel {
   max-width: 1024px;
   margin: auto;
 
-  &-control{
-    &-prev, &-next{
+  &-control {
+    &-prev, &-next {
       top: 90%;
       right: 80px;
       width: 30px;
@@ -170,31 +181,43 @@ header {
       border-radius: 100%;
       background: antiquewhite;
     }
-    &-next{
+
+    &-next {
       right: 5px;
     }
-    &-prev{
+
+    &-prev {
       left: initial;
 
     }
   }
-&-caption{
-  left: -20%;
-  right: initial;
-  top: 50%;
-  color: #ff253a;
-}
-  &-item{
+  &-inner{
+
+  }
+  &-caption {
+    left: 0;
+    max-width: 400px;
+    right: initial;
+    background: rgba(0,0,0,0.5);
+    height: min-content;
+    top: 0;
+    color: #ff253a;
+  }
+
+  &-item {
     max-height: 600px;
-    img{
+
+    img {
       background-size: cover;
     }
   }
 }
+
 .cellar {
   background: black;
   height: 20px;
 }
+
 @media (min-width: 1024px) {
   .fa {
     &-align {

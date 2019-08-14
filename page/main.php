@@ -1,49 +1,61 @@
+<?php
+$text = '<div class="carousel-caption d-none d-md-block">
+                    <p class="h3">Кухни на заказ в любом стиле</p><p>А также корпусная мебель в гостиную,
+                    прихожую, ванную, гардероб
+                </p><a href="?page=portfolio" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
+                </div>';
+?>
 <div class="block green">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-caption d-none d-md-block">
-            <h3>Первое фотто слайдера , показывается всегда </h3>
-            <p>...</p>
-        </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Первый слайд">
-
+                <?php echo $text; ?>
             </div>
 
 
             <div class="carousel-item   first">
-                <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд">
+                <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд"> <?php echo $text; ?>
+
             </div>
 
 
             <div class="carousel-item  first">
-                <img class="d-block w-100" src="/img/Mitrofanova.jpg" alt="Третий слайд">
+                <img class="d-block w-100" src="/img/Mitrofanova.jpg" alt="Третий слайд"> <?php echo $text; ?>
+
             </div>
             <div class="carousel-item  first">
-                <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
+                <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд"> <?php echo $text; ?>
+
             </div>
             <div class="carousel-item  first">
-                <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Третий слайд">
+                <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Третий слайд"> <?php echo $text; ?>
+
             </div>
 
             <div class="carousel-item none">
                 <img class="d-block w-100" src="/img/IMG_5771.jpg" alt="Второй слайдер">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Второй слайдер , показывается при клике </h3>
-                    <p>...</p>
+                    <p class="h3">
+                        Молодой бренд с богатым прошлым и грандиозными планами
+                    </p>
+                    <p>
+
+
+                        Высокие технологии производства, индивидуальный подход к клиенту,
+                        регулярная обратная связь
+                    </p><a href="?page=" class="w-100 btn btn-outline-primary">Узнать больше о Jim Woo</a>
                 </div>
             </div>
 
             <div class="carousel-item none">
                 <img class="d-block w-100" src="/img/tub.jpg" alt="Второй слайдер">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Третий слайдер , показывается при клике </h3>
-                    <p>...</p>
+                    <p class="h3">Как нас найти? </p>
+                    <p>
+
+                        Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш Instagram!
+                    </p><a href="?page=" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
                 </div>
             </div>
         </div>
@@ -58,26 +70,4 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
 </div>
-<script>
-    function sl_test() {
-        $('.carousel').on('slid.bs.carousel', function () {
-            var item = $(this).find('.none');
-            if (!item.hasClass('active')) {
-                item.removeClass('carousel-item').css('display', 'none');
-                $('.first:not(.active)').addClass('carousel-item').css('display', '');
-            }
-        })
-    }
-
-    function sl_test_of() {
-        $('.carousel-inner').each(function (i) {
-            var item = $(this).find('.none');
-            item.css('display', '').addClass('carousel-item none');
-            $('.first:not(.active)').removeClass('carousel-item').css('display', 'none');
-        });
-    }
-
-    sl_test();
-</script>

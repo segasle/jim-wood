@@ -139,9 +139,12 @@ header {
   left: initial;
 }
 .carousel-caption {
-  left: -20%;
+  left: 0;
+  max-width: 400px;
   right: initial;
-  top: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  height: min-content;
+  top: 0;
   color: #ff253a;
 }
 .carousel-item {

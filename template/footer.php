@@ -15,7 +15,29 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script src="javascrpt/main.js"></script>
 <script src="javascrpt/function-form.js"></script>
+<script src="javascrpt/main.js"></script>
+
+<script>
+    function sl_test() {
+        $('.carousel').on('slid.bs.carousel', function () {
+            var item = $(this).find('.none');
+            if (!item.hasClass('active')) {
+                item.removeClass('carousel-item').css('display', 'none');
+                $('.first:not(.active)').addClass('carousel-item').css('display', '');
+            }
+        })
+    }
+
+    function sl_test_of() {
+        $('.carousel-inner').each(function (i) {
+            var item = $(this).find('.none');
+            item.css('display', '').addClass('carousel-item none');
+            $('.first:not(.active)').removeClass('carousel-item').css('display', 'none');
+        });
+    }
+
+    sl_test();
+</script>
 </body>
 </html>
