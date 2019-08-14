@@ -162,7 +162,7 @@ header {
   background: black;
   height: 20px;
 }
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .fa-align-justify {
     display: none;
   }
