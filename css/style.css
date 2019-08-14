@@ -144,8 +144,8 @@ header {
   right: initial;
   background: rgba(0, 0, 0, 0.5);
   height: min-content;
-  top: 0;
-  color: #ff253a;
+  bottom: 0;
+  font-weight: bold;
 }
 .carousel-item {
   max-height: 600px;
