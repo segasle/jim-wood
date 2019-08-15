@@ -1,23 +1,12 @@
 <?php
-$text = '<div class="carousel-caption d-none d-md-block my-block">
+$text = '<div class="carousel-caption d-none d-md-block">
                     <p class="h3">Кухни на заказ в любом стиле</p><p>А также корпусная мебель в гостиную,
                     прихожую, ванную, гардероб
                 </p><a href="?page=portfolio" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
                 </div>';
 ?>
 <div class="block green">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
-
-        <a onmouseleave="sl_test()" class="carousel-control-prev " href="#carouselExampleIndicators" role="button"
-           onclick="sl_test_of()" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a onmouseleave="sl_test()" class="carousel-control-next " href="#carouselExampleIndicators"
-           onclick="sl_test_of()" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
         <?php echo $text; ?>
 
         <div class="carousel-inner">
@@ -34,7 +23,7 @@ $text = '<div class="carousel-caption d-none d-md-block my-block">
                     <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд">
 
                 </div>
-                <?php // echo $text; ?>
+                <?php //echo $text; ?>
 
             </div>
 
@@ -48,10 +37,10 @@ $text = '<div class="carousel-caption d-none d-md-block my-block">
 
             </div>
             <div class="carousel-item  first">
-<div class="img">
-    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
+                <div class="img">
+                    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
 
-</div>
+                </div>
                 <?php //echo $text; ?>
 
             </div>
@@ -91,10 +80,21 @@ $text = '<div class="carousel-caption d-none d-md-block my-block">
                     <p class="h3">Как нас найти? </p>
                     <p>
 
-                        Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш Instagram!
+                        Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш
+                        Instagram!
                     </p><a href="?page=" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
                 </div>
             </div>
         </div>
+        <a onmouseleave="sl_test()" class="carousel-control-prev " href="#carouselExampleIndicators" role="button"
+           onclick="sl_test_of()" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a onmouseleave="sl_test()" class="carousel-control-next " href="#carouselExampleIndicators"
+           onclick="sl_test_of()" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
