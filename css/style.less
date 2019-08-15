@@ -168,18 +168,21 @@ header {
   }
 }
 
+
 .carousel {
   max-width: 1024px;
   margin: auto;
 
   &-control {
     &-prev, &-next {
+      z-index: 1;
       top: 90%;
       right: 80px;
       width: 30px;
       height: 30px;
       border-radius: 100%;
       background: antiquewhite;
+
     }
 
     &-next {
@@ -207,6 +210,7 @@ header {
 
   &-item {
     max-height: 600px;
+    
     .img {
       //background-size: cover;
       float: right;
