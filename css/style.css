@@ -119,6 +119,9 @@ header {
 .content .green {
   background: rgba(6, 138, 27, 0.5);
 }
+.none > .carousel-caption.d-none.d-md-block {
+  display: none!important;
+}
 .carousel {
   max-width: 1024px;
   margin: auto;

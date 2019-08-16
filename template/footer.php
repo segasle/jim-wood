@@ -19,6 +19,22 @@
 <script src="javascrpt/main.js"></script>
 
 <script>
+
+
+    $('.carousel').on('slid.bs.carousel', function (e) {
+        var test2= $('.active > .d-md-block h3 ').text();
+        var test_p= $('.active > .d-md-block p').text();
+        var item_test = $(this).find('.first.carousel-item.active h3');
+        if (test2){
+            $('.my-block .h3').text(test2);
+        }
+        if (test_p) {
+            $('.my-block .text').text(test_p);
+        }
+    });
+
+
+
     function sl_test() {
         $('.carousel').on('slid.bs.carousel', function () {
             var item = $(this).find('.none');

@@ -6,8 +6,8 @@ $text = '<div class="carousel-caption d-none d-md-block">
                 </div>';
 ?>
 <div class="block green">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
-        <?php echo $text; ?>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <?php  echo $text; ?>
 
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -37,10 +37,10 @@ $text = '<div class="carousel-caption d-none d-md-block">
 
             </div>
             <div class="carousel-item  first">
-                <div class="img">
-                    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
+<div class="img">
+    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
 
-                </div>
+</div>
                 <?php //echo $text; ?>
 
             </div>
@@ -80,8 +80,7 @@ $text = '<div class="carousel-caption d-none d-md-block">
                     <p class="h3">Как нас найти? </p>
                     <p>
 
-                        Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш
-                        Instagram!
+                        Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш Instagram!
                     </p><a href="?page=" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
                 </div>
             </div>
