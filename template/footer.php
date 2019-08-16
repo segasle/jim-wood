@@ -19,33 +19,44 @@
 <script src="javascrpt/main.js"></script>
 
 <script>
-
-
-    $('.carousel').on('slid.bs.carousel', function (e) {
-        var test2= $('.active > .d-md-block h3 ').text();
-        var test_p= $('.active > .d-md-block p').text();
-        var item_test = $(this).find('.first.carousel-item.active h3');
-        if (test2){
-            $('.my-block .h3').text(test2);
-        }
-        if (test_p) {
-            $('.my-block .text').text(test_p);
-        }
-    });
-
-
+    $('.carousel').carousel({interval: 8000});
 
     function sl_test() {
         $('.carousel').on('slid.bs.carousel', function () {
             var item = $(this).find('.none');
             if (!item.hasClass('active')) {
+                $('.main').addClass('d-md-block');
                 item.removeClass('carousel-item').css('display', 'none');
                 $('.first:not(.active)').addClass('carousel-item').css('display', '');
             }
         })
     }
 
-    function sl_test_of() {
+    function sl_right_of() {
+        $('.carousel').on('slide.bs.carousel', function () {
+            var test = $(this).find('.carousel-item.active');
+            if (test.hasClass('item-last') || test.hasClass('first')) {
+                $('.main').addClass('d-md-block');
+            } else {
+                $('.main').removeClass('d-md-block');
+            }
+        })
+        $('.carousel-inner').each(function (i) {
+            var item = $(this).find('.none');
+            item.css('display', '').addClass('carousel-item none');
+            $('.first:not(.active)').removeClass('carousel-item').css('display', 'none');
+        });
+    }
+
+    function sl_left_of() {
+        $('.carousel').on('slide.bs.carousel', function () {
+            var test = $(this).find('.carousel-item.active');
+            if (test.hasClass('item-middle') || test.hasClass('first')) {
+                $('.main').addClass('d-md-block');
+            } else {
+                $('.main').removeClass('d-md-block');
+            }
+        })
         $('.carousel-inner').each(function (i) {
             var item = $(this).find('.none');
             item.css('display', '').addClass('carousel-item none');

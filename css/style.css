@@ -119,8 +119,13 @@ header {
 .content .green {
   background: rgba(6, 138, 27, 0.5);
 }
-.none > .carousel-caption.d-none.d-md-block {
-  display: none!important;
+.carousel-caption.d-none.d-md-block.my-block {
+  background: rgba(206, 196, 196, 0.5);
+  color: black;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  width: 50%;
 }
 .carousel {
   max-width: 1024px;
@@ -144,10 +149,8 @@ header {
 }
 .carousel-caption {
   left: 0;
-  max-width: 400px;
-  right: initial;
-  background: rgba(0, 0, 0, 0.5);
-  height: min-content;
+  width: 40%;
+  padding-right: 2%;
   top: 20%;
   font-weight: bold;
 }
@@ -156,11 +159,19 @@ header {
 }
 .carousel-item .img {
   float: right;
-  max-height: 400px;
+  max-height: 470px;
   width: 60%;
 }
 .carousel-item .img img {
   background-size: contain;
+}
+.carousel-inneritem {
+  max-width: 400px;
+  right: initial;
+  background: rgba(0, 0, 0, 0.5);
+  height: min-content;
+  font-weight: bold;
+  margin: auto;
 }
 .cellar {
   background: black;
@@ -185,6 +196,26 @@ header {
   }
   .menu nav ul li a {
     font-weight: bold;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item .img {
+    max-height: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-item .img {
+    max-height: 400px;
+  }
+}
+@media (min-width: 1500px) {
+  .carousel-item .img {
+    max-height: 500px;
+  }
+}
+@media (min-width: 1700px) {
+  .carousel-item .img {
+    max-height: 600px;
   }
 }
 /*# sourceMappingURL=style.css.map */
