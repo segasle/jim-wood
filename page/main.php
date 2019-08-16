@@ -8,12 +8,12 @@ $text = '<div class="carousel-caption main d-none d-md-block">
 ?>
 <div class="block green">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
-        <?php  echo $text; ?>
+        <?php echo $text; ?>
 
         <div class="carousel-inner">
             <div class="carousel-item item-main active">
                 <div class="img">
-                    <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Первый слайд">
+                    <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд">
 
                 </div>
             </div>
@@ -21,10 +21,10 @@ $text = '<div class="carousel-caption main d-none d-md-block">
 
             <div class="carousel-item   first">
                 <div class="img">
-                    <img class="d-block w-100" src="/img/galoshes.jpg" alt="Второй слайд">
+                    <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Первый слайд">
+
 
                 </div>
-                <?php //echo $text; ?>
 
             </div>
 
@@ -34,15 +34,13 @@ $text = '<div class="carousel-caption main d-none d-md-block">
                     <img class="d-block w-100" src="/img/Mitrofanova.jpg" alt="Третий слайд">
 
                 </div>
-                <?php //echo $text; ?>
 
             </div>
             <div class="carousel-item  first">
-<div class="img">
-    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
+                <div class="img">
+                    <img class="d-block w-100" src="/img/hallway.jpg" alt="Третий слайд">
 
-</div>
-                <?php //echo $text; ?>
+                </div>
 
             </div>
             <div class="carousel-item  first">
@@ -50,7 +48,6 @@ $text = '<div class="carousel-caption main d-none d-md-block">
                     <img class="d-block w-100" src="/img/sukharkov.jpg" alt="Третий слайд">
 
                 </div>
-                <?php //echo $text; ?>
 
             </div>
 
@@ -85,7 +82,8 @@ $text = '<div class="carousel-caption main d-none d-md-block">
                 <div class="carousel-caption d-none d-md-block">
                     <div class="carousel-inneritem p-3">
                         <p class="h3">Как нас найти? </p>
-                        <p>Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш Instagram!
+                        <p>Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш
+                            Instagram!
                         </p><a href="?page=" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
                     </div>
                 </div>
