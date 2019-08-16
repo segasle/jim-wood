@@ -128,7 +128,7 @@ header {
   width: 50%;
 }
 .carousel {
-  max-width: 1024px;
+  max-width: 96%;
   margin: auto;
 }
 .carousel-control-prev,

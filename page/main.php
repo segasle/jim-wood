@@ -70,7 +70,16 @@ $text = '<div class="carousel-caption main d-none d-md-block">
 
             <div class="carousel-item item-last none">
                 <div class="img">
-                    <img class="d-block w-100" src="/img/tub.jpg" alt="Второй слайдер">
+                    <div class="row">
+                        <div class="col-xl-5 col-lg-5 col-12">
+                            <img class="d-block w-100" src="/img/maps.jpg" alt="Второй слайдер">
+
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-12">
+                            <img class="d-block w-100" src="/img/Lavaur.jpg" alt="Второй слайдер">
+
+                        </div>
+                    </div>
 
                 </div>
                 <div class="carousel-caption d-none d-md-block">
