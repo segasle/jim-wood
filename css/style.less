@@ -1,5 +1,7 @@
+
 @cr: #000;
 @bg: #fff;
+@btn: #357e7e;
 @hover: #068a1b;
 * {
   padding: 0;
@@ -30,7 +32,26 @@ div {
     display: block;
   }
 }
-
+.btn{
+  &-outline{
+    &-primary{
+      border: none;
+      background: @btn;
+      color: @cr;
+      &:hover{
+        background: lighten(@btn, 5%);
+      }
+    }
+  }
+  &-primary{
+    border: none;
+    background: @btn;
+    color: @cr;
+    &:hover{
+      background: lighten(@btn, 5%);
+    }
+  }
+}
 .label {
   &-none {
     cursor: pointer;
@@ -41,10 +62,12 @@ div {
 }
 
 button.mod {
-  z-index: 9999;
-  position: fixed;
-  right: 0;
-  top: 10%;
+  float: left;
+  margin-top: 5px;
+  //z-index: 9999;
+  //position: fixed;
+  //right: 0;
+  //top: 10%;
   //  width: 30px;
   //height: 30px;
 }
@@ -109,7 +132,7 @@ header {
 
     ul {
       margin-bottom: 0;
-
+      float: left;
       li {
         display: block;
         text-align: left;
@@ -177,17 +200,8 @@ header {
 
 .content {
   .green {
-    background: rgba(6, 138, 27, 0.5);
+    background: rgba(138, 132, 134, 0.74);
   }
-}
-
-.carousel-caption.d-none.d-md-block.my-block{
-  background: rgba(206, 196, 196, 0.5);
-  color: black;
-  height: 200px;
-  position: absolute;
-  top: 100px;
-  width: 50%;
 }
 
 .carousel {
@@ -231,7 +245,8 @@ header {
     padding-right: 2%;
     top: 20%;
     font-weight: bold;
-
+    color: @cr;
+    //font-family: "Roman";
   }
 
   &-item {
@@ -249,7 +264,7 @@ header {
   &-inneritem {
     max-width: 400px;
     right: initial;
-    background: rgba(0, 0, 0, 0.5);
+//    background: rgba(0, 0, 0, 0.5);
     height: min-content;
     font-weight: bold;
     margin: auto;

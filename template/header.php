@@ -26,9 +26,6 @@
     <link rel="stylesheet" href="css/style.css?t=<?php echo(microtime(true) . rand()); ?>">
 </head>
 <body>
-<button type="button" class="btn btn-primary mod" data-toggle="modal" data-target="#exampleModal">
-    <i class="fas fa-shopping-basket fa-2x"></i>
-</button>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
      aria-hidden="true">
@@ -159,6 +156,9 @@
                                     echo '<li><a class="' . $active . '" href="' . $item['url'] . '">' . $item['title'] . '</a></li>';
                                 }
                                 ?>
+
+                                <button type="button" class="btn btn-primary mod" data-toggle="modal" data-target="#exampleModal">посчитать проект
+                                </button>
                             </ul>
                         </nav>
                     </div>
