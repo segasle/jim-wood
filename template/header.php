@@ -129,12 +129,12 @@
     <header>
         <div class="header">
             <div class="row">
-                <div class="col-xl-2 col-xs-12">
+                <div class="col-xl-2 col-6">
                     <div class="logo">
                         <a href="/" class="link"></a>
                     </div>
                 </div>
-                <div class="col-xl-10 col-xs-12">
+                <div class="col-xl-10 col-6">
                     <div class="menu">
                         <input type="checkbox" id="checkbox">
                         <label class="burger label-none" for="checkbox">

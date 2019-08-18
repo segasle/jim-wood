@@ -64,17 +64,10 @@ div {
 button.mod {
   float: left;
   margin-top: 5px;
-  //z-index: 9999;
-  //position: fixed;
-  //right: 0;
-  //top: 10%;
-  //  width: 30px;
-  //height: 30px;
+
 }
 
 header {
-  //  position: fixed;
-  //top: 0;
   width: 100%;
 }
 .logo{
@@ -106,11 +99,10 @@ header {
 
 .menu {
   .burger {
-    width: 50px;
-    height: 50px;
+    @wh: 30px;
+    width: @wh;
+    height: @wh;
     position: absolute;
-    //left: 10px;
-    // top: 12px;
   }
 
   #checkbox {
@@ -118,7 +110,6 @@ header {
 
     &:checked ~ nav {
       display: block;
-      //   animation: burger 1s;
     }
   }
 
@@ -128,7 +119,7 @@ header {
     background: @bg;
     position: absolute;
     z-index: 2;
-    top: 100%;
+    top: 17%;
 
     ul {
       margin-bottom: 0;
@@ -233,13 +224,6 @@ header {
 
   }
   &-caption {
-    //left: 0;
-    //max-width: 400px;
-    //right: initial;
-    //background: rgba(0,0,0,0.5);
-    //height: min-content;
-    //top: 20%;
-    //font-weight: bold;
     left: 0;
     width: 40%;
     padding-right: 2%;
@@ -247,16 +231,12 @@ header {
     font-weight: bold;
     font-family: 'Merriweather', serif;
     color: @cr;
-    //font-family: "Roman";
   }
 
   &-item {
     max-height: 600px;
     .img {
-      //background-size: cover;
-      float: right;
-      max-height: 470px;
-      width: 60%;
+
       img{
         background-size: contain;
       }
@@ -265,7 +245,6 @@ header {
   &-inneritem {
     max-width: 400px;
     right: initial;
-//    background: rgba(0, 0, 0, 0.5);
     height: min-content;
     font-weight: bold;
     margin: auto;
@@ -307,6 +286,15 @@ header {
             font-weight: bold;
           }
         }
+      }
+    }
+  }
+  .carousel{
+    &-item{
+      .img{
+        float: right;
+        max-height: 470px;
+        width: 60%;
       }
     }
   }

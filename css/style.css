@@ -73,8 +73,8 @@ header {
   height: 100%;
 }
 .menu .burger {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   position: absolute;
 }
 .menu #checkbox {
@@ -89,7 +89,7 @@ header {
   background: #fff;
   position: absolute;
   z-index: 2;
-  top: 100%;
+  top: 17%;
 }
 .menu nav ul {
   margin-bottom: 0;
@@ -177,11 +177,6 @@ header {
 .carousel-item {
   max-height: 600px;
 }
-.carousel-item .img {
-  float: right;
-  max-height: 470px;
-  width: 60%;
-}
 .carousel-item .img img {
   background-size: contain;
 }
@@ -218,6 +213,11 @@ header {
   }
   .menu nav ul li a {
     font-weight: bold;
+  }
+  .carousel-item .img {
+    float: right;
+    max-height: 470px;
+    width: 60%;
   }
 }
 @media (min-width: 992px) {
