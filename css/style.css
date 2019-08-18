@@ -239,4 +239,12 @@ header {
     max-height: 600px;
   }
 }
+@keyframes show {
+  to {
+    opacity: 0;
+  }
+  from {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=style.css.map */
