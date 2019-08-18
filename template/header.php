@@ -17,7 +17,7 @@
           content="<?php //echo $keywords; ?>">
     <meta name="description" content="<?php //echo $description; ?>">
     <title><?php //echo $title; ?></title>
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="icons/css/all.css">
     <link rel="stylesheet" href="icons/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
