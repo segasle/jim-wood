@@ -18,54 +18,5 @@
         crossorigin="anonymous"></script>
 <script src="javascrpt/function-form.js"></script>
 <script src="javascrpt/main.js"></script>
-
-<script>
-    //$('.carousel').carousel({interval: 8000});
-
-    function sl_test() {
-        $('.carousel').on('slid.bs.carousel', function () {
-            var item = $(this).find('.none');
-            if (!item.hasClass('active')) {
-                $('.main').addClass('d-md-block');
-                item.removeClass('carousel-item').css('display', 'none');
-                $('.first:not(.active)').addClass('carousel-item').css('display', '');
-            }
-        })
-    }
-
-    function sl_right_of() {
-        $('.carousel').on('slide.bs.carousel', function () {
-            var test = $(this).find('.carousel-item.active');
-            if (test.hasClass('item-last') || test.hasClass('first')) {
-                $('.main').addClass('d-md-block');
-            } else {
-                $('.main').removeClass('d-md-block');
-            }
-        })
-        $('.carousel-inner').each(function (i) {
-            var item = $(this).find('.none');
-            item.css('display', '').addClass('carousel-item none');
-            $('.first:not(.active)').removeClass('carousel-item').css('display', 'none');
-        });
-    }
-
-    function sl_left_of() {
-        $('.carousel').on('slide.bs.carousel', function () {
-            var test = $(this).find('.carousel-item.active');
-            if (test.hasClass('item-middle') || test.hasClass('first')) {
-                $('.main').addClass('d-md-block');
-            } else {
-                $('.main').removeClass('d-md-block');
-            }
-        })
-        $('.carousel-inner').each(function (i) {
-            var item = $(this).find('.none');
-            item.css('display', '').addClass('carousel-item none');
-            $('.first:not(.active)').removeClass('carousel-item').css('display', 'none');
-        });
-    }
-
-    sl_test();
-</script>
 </body>
 </html>

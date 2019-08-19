@@ -166,6 +166,13 @@ header {
   max-width: 96%;
   margin: auto;
 }
+.carousel-text {
+  padding-top: 20%;
+  font-weight: bold;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+}
 .carousel-control-prev,
 .carousel-control-next {
   z-index: 1;
@@ -178,9 +185,6 @@ header {
 }
 .carousel-control-next {
   right: 5px;
-}
-.carousel-control-prev {
-  left: initial;
 }
 .carousel-caption {
   left: 0;
@@ -239,9 +243,7 @@ header {
     width: auto;
   }
   .carousel-item .img {
-    float: right;
     max-height: 470px;
-    width: 60%;
   }
 }
 @media (min-width: 992px) {

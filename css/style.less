@@ -74,6 +74,7 @@ header {
 }
 .logo{
   width: 100%;
+//  margin-bottom: 15px;
   .link{
     background: url(/img/logo.png) no-repeat center;
     display: block;
@@ -82,6 +83,8 @@ header {
     height: 152px;
     background-size: contain;
   }
+
+
 }
 
 .modal {
@@ -125,6 +128,7 @@ header {
     top: 20%;
     ul {
       margin-bottom: 0;
+      //float: left;
       li {
         display: block;
         text-align: left;
@@ -202,6 +206,14 @@ header {
   max-width: 96%;
   margin: auto;
 
+  &-text {
+    padding-top: 20%;
+    font-weight: bold;
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+  }
+
   &-control {
     &-prev, &-next {
       z-index: 1;
@@ -219,7 +231,7 @@ header {
     }
 
     &-prev {
-      left: initial;
+      //left: initial;
 
     }
   }
@@ -305,9 +317,9 @@ header {
   .carousel{
     &-item{
       .img{
-        float: right;
+        //float: right;
+        //width: 60%;
         max-height: 470px;
-        width: 60%;
       }
     }
   }
