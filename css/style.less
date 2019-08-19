@@ -100,11 +100,15 @@ header {
 }
 
 .menu {
+  position: relative;
+  height: 100%;
   .burger {
     @wh: 30px;
     width: @wh;
     height: @wh;
     position: absolute;
+    right: 5px;
+    top: 5px;
   }
 
   #checkbox {
@@ -121,23 +125,19 @@ header {
     background: @bg;
     position: absolute;
     z-index: 2;
-    top: 17%;
-
+    top: 20%;
     ul {
       margin-bottom: 0;
-      float: left;
+      //float: left;
       li {
         display: block;
         text-align: left;
         font-size: 16px;
         padding-left: 10px;
-
-
         a {
           display: block;
           text-decoration: none;
           padding: 12px 0;
-
           &:hover {
             color: @hover;
           }
@@ -152,6 +152,11 @@ header {
 
         }
       }
+    }
+    .btn{
+      white-space: normal;
+      text-align: left;
+      width: 100%;
     }
   }
 }
@@ -295,6 +300,9 @@ header {
             font-weight: bold;
           }
         }
+      }
+      .btn{
+        width: auto;
       }
     }
   }

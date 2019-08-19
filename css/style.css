@@ -80,10 +80,16 @@ header {
 .modal-content {
   height: 100%;
 }
+.menu {
+  position: relative;
+  height: 100%;
+}
 .menu .burger {
   width: 30px;
   height: 30px;
   position: absolute;
+  right: 5px;
+  top: 5px;
 }
 .menu #checkbox {
   display: none;
@@ -97,11 +103,10 @@ header {
   background: #fff;
   position: absolute;
   z-index: 2;
-  top: 17%;
+  top: 20%;
 }
 .menu nav ul {
   margin-bottom: 0;
-  float: left;
 }
 .menu nav ul li {
   display: block;
@@ -122,6 +127,11 @@ header {
 }
 .menu nav ul li .active {
   color: #068a1b;
+}
+.menu nav .btn {
+  white-space: normal;
+  text-align: left;
+  width: 100%;
 }
 .form {
   max-width: 768px;
@@ -225,6 +235,9 @@ header {
   }
   .menu nav ul li a {
     font-weight: bold;
+  }
+  .menu nav .btn {
+    width: auto;
   }
   .carousel-item .img {
     float: right;
