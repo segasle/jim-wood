@@ -1,4 +1,4 @@
-
+@import 'animation.less';
 @cr: #000;
 @bg: #fff;
 @btn: #357e7e;
@@ -252,6 +252,12 @@ header {
   }
 }
 
+  .carousel{
+    &-item.active{
+      animation: show 1s;
+    }
+  }
+
 .cellar {
   background: black;
   height: 20px;
@@ -335,14 +341,4 @@ header {
       }
     }
   }
-}
-
-@keyframes show {
-  to{
-    opacity: 0;
-  }
-  from{
-    opacity: 1;
-  }
-  
 }
