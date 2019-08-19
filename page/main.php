@@ -7,7 +7,7 @@ $text = '<div class="carousel-caption main d-none d-md-block">
         </div>';
 ?>
 <div class="block green">
-    <div id="carouselExampleIndicators" class="carousel show" data-ride="carousel" data-interval="3000">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
         <?php echo $text; ?>
 
         <div class="carousel-inner">
