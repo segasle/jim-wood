@@ -217,12 +217,12 @@ header {
   &-control {
     &-prev, &-next {
       z-index: 1;
-      top: 90%;
+      top: 50%;
       right: 80px;
       width: 30px;
       height: 30px;
       border-radius: 100%;
-      background: antiquewhite;
+      background: @btn;
 
     }
 
@@ -232,11 +232,14 @@ header {
 
     &-prev {
       //left: initial;
-
     }
   }
   &-inner{
+   a[href="#carousel-one"] {
+        background: antiquewhite;
 
+
+    }
   }
   &-caption {
     left: 0;

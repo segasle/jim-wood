@@ -176,15 +176,18 @@ header {
 .carousel-control-prev,
 .carousel-control-next {
   z-index: 1;
-  top: 90%;
+  top: 50%;
   right: 80px;
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  background: antiquewhite;
+  background: #357e7e;
 }
 .carousel-control-next {
   right: 5px;
+}
+.carousel-inner a[href="#carousel-one"] {
+  background: antiquewhite;
 }
 .carousel-caption {
   left: 0;
