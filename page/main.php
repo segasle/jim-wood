@@ -78,7 +78,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item three-inner active">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="/img/maps.jpg"
+                                    <img class="d-block img-fluid w-100" src="/img/maps.jpg"
                                          alt="slide">
                                 </div>
                             </div>

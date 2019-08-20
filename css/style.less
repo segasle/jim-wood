@@ -1,9 +1,10 @@
 @import 'animation.less';
+
 @cr: #000;
 @bg: #fff;
 @btn: #357e7e;
 @hover: #068a1b;
-@ff:  'Merriweather', serif;
+@ff: 'Merriweather', serif;
 * {
   padding: 0;
   margin: 0;
@@ -34,26 +35,31 @@ div {
     display: block;
   }
 }
-.btn{
-  &-outline{
-    &-primary{
+
+.btn {
+  &-outline {
+    &-primary {
       border: none;
       background: @btn;
       color: @cr;
-      &:hover{
+
+      &:hover {
         background: lighten(@btn, 5%);
       }
     }
   }
-  &-primary{
+
+  &-primary {
     border: none;
     background: @btn;
     color: @cr;
-    &:hover{
+
+    &:hover {
       background: lighten(@btn, 5%);
     }
   }
 }
+
 .label {
   &-none {
     cursor: pointer;
@@ -72,10 +78,11 @@ button.mod {
 header {
   width: 100%;
 }
-.logo{
+
+.logo {
   width: 100%;
-//  margin-bottom: 15px;
-  .link{
+  //  margin-bottom: 15px;
+  .link {
     background: url(/img/logo.png) no-repeat center;
     display: block;
     margin-top: 5px;
@@ -102,6 +109,7 @@ header {
 .menu {
   position: relative;
   height: 100%;
+
   .burger {
     @wh: 30px;
     width: @wh;
@@ -126,6 +134,7 @@ header {
     position: absolute;
     z-index: 2;
     top: 20%;
+
     ul {
       margin-bottom: 0;
       //float: left;
@@ -134,10 +143,12 @@ header {
         text-align: left;
         font-size: 16px;
         padding-left: 10px;
+
         a {
           display: block;
           text-decoration: none;
           padding: 12px 0;
+
           &:hover {
             color: @hover;
           }
@@ -153,7 +164,8 @@ header {
         }
       }
     }
-    .btn{
+
+    .btn {
       white-space: normal;
       text-align: left;
       width: 100%;
@@ -198,7 +210,7 @@ header {
 
 .content {
   .green {
-    background: rgba(138, 132, 134, 0.34);
+    background: rgba(127, 127, 127, 0.2);
   }
 }
 
@@ -227,20 +239,21 @@ header {
     }
 
     &-next {
-      right: 5px;
+      right: 15px;
     }
 
     &-prev {
+      left: 15px;
       //left: initial;
     }
   }
-  &-inner{
-   a[href="#carousel-one"] {
-        background: antiquewhite;
 
-
+  &-inner {
+    a[href="#carousel-one"], a[href="#carousel-three"] {
+      background: antiquewhite;
     }
   }
+
   &-caption {
     left: 0;
     width: 40%;
@@ -253,19 +266,22 @@ header {
   &-item {
     opacity: 0;
     max-height: 600px;
-    &.active{
+
+    &.active {
       opacity: 1;
-      transition: opacity .6s ease, transform .6s ease,-webkit-transform .6s ease;
-     //animation: show 1s;
+      transition: opacity .6s ease, transform .6s ease, -webkit-transform .6s ease;
+      //animation: show 1s;
       //transition-property: ;
     }
+
     .img {
 
-      img{
-        background-size: contain;
+      img {
+        //background-size: contain;
       }
     }
   }
+
   &-inneritem {
     max-width: 400px;
     right: initial;
@@ -300,6 +316,7 @@ header {
       top: 0;
       position: initial;
       display: block;
+
       ul {
         float: right;
 
@@ -312,14 +329,16 @@ header {
           }
         }
       }
-      .btn{
+
+      .btn {
         width: auto;
       }
     }
   }
-  .carousel{
-    &-item{
-      .img{
+
+  .carousel {
+    &-item {
+      .img {
         //float: right;
         //width: 60%;
         max-height: 470px;
@@ -327,6 +346,7 @@ header {
     }
   }
 }
+
 @media (min-width: 992px) {
   .carousel {
     &-item {
@@ -336,6 +356,7 @@ header {
     }
   }
 }
+
 @media (min-width: 1200px) {
   .carousel {
     &-item {
@@ -345,6 +366,7 @@ header {
     }
   }
 }
+
 @media (min-width: 1500px) {
   .carousel {
     &-item {
@@ -354,6 +376,7 @@ header {
     }
   }
 }
+
 @media (min-width: 1700px) {
   .carousel {
     &-item {
@@ -364,13 +387,17 @@ header {
   }
 }
 
-@media (min-width: 576px) { }
+@media (min-width: 576px) {
+}
 
 // Средние девайсы («таблетки», >= 768px)
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+}
 
 // Большие девайсы (десктопы, >= 992px)
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+}
 
 // Экстрабольшие девайсы (большие десктопы, >= 1200px)
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+}
