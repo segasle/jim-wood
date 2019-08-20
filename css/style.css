@@ -31,6 +31,11 @@ div:before {
   clear: both;
   display: block;
 }
+.btn {
+  white-space: normal;
+  text-align: center;
+  width: 100%;
+}
 .btn-outline-primary {
   border: none;
   background: #357e7e;
@@ -126,11 +131,6 @@ header {
 }
 .menu nav ul li .active {
   color: #068a1b;
-}
-.menu nav .btn {
-  white-space: normal;
-  text-align: left;
-  width: 100%;
 }
 .form {
   max-width: 768px;
