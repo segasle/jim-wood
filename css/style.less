@@ -84,17 +84,14 @@ header {
 
 .logo {
   width: 100%;
-  //  margin-bottom: 15px;
   .link {
-    background: url(/img/logo.png) no-repeat center;
+    background: url("/img/logo.png") no-repeat center;
     display: block;
     margin-top: 5px;
     width: 150px;
     height: 152px;
     background-size: contain;
   }
-
-
 }
 
 .modal {
@@ -288,7 +285,32 @@ header {
   }
 }
 
-
+.block{
+  height: inherit;
+  &_bg{
+    background: url("/img/Kruglov.jpg") no-repeat center;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    padding: 50px 25px;
+  }
+  &_text{
+    max-width: 500px;
+    margin: auto;
+    display: block;
+    padding: 25px;
+    box-shadow: inset 1px 2px 9px 6px  rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.29);
+    color: @bg;
+    &-descriptions{
+      p{
+        span{
+          padding-left: 30px;
+        }
+      }
+    }
+  }
+}
 .cellar {
   background: black;
   height: 20px;
