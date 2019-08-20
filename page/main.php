@@ -15,25 +15,25 @@
                         <div class="carousel-inner">
                             <div class="carousel-item first-inner active">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="http://ch06403.tmweb.ru/img/galoshes.jpg"
+                                    <img class="d-block img-fluid" src="/img/galoshes.jpg"
                                          alt="slide">
                                 </div>
                             </div>
                             <div class="carousel-item first-inner">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="http://ch06403.tmweb.ru/img/sukharkov.jpg"
+                                    <img class="d-block img-fluid" src="/img/sukharkov.jpg"
                                          alt="slide">
                                 </div>
                             </div>
                             <div class="carousel-item first-inner">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="http://ch06403.tmweb.ru/img/Mitrofanova.jpg"
+                                    <img class="d-block img-fluid" src="/img/Mitrofanova.jpg"
                                          alt="slide">
                                 </div>
                             </div>
                             <div class="carousel-item first-inner">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="http://ch06403.tmweb.ru/img/hallway.jpg"
+                                    <img class="d-block img-fluid" src="/img/hallway.jpg"
                                          alt="slide">
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-md-7 col-sm-12 col-12 float-right">
                     <div class="img">
-                        <img class="d-block w-100" src="http://ch06403.tmweb.ru/img/IMG_5771.jpg" alt="Второй слайдер">
+                        <img class="d-block w-100" src="/img/IMG_5771.jpg" alt="Второй слайдер">
                     </div>
                 </div>
             </div>
@@ -78,14 +78,14 @@
                         <div class="carousel-inner">
                             <div class="carousel-item three-inner active">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="http://ch06403.tmweb.ru/img/maps.jpg"
+                                    <img class="d-block img-fluid" src="/img/maps.jpg"
                                          alt="slide">
                                 </div>
                             </div>
                             <div class="carousel-item three-inner">
                                 <div class="img">
-                                    <img class="d-block img-fluid" src="http://ch06403.tmweb.ru/img/Lavaur.jpg"
-                                         alt="slide">
+                                    <img class="d-block img-fluid" src="/img/Lavaur.jpg"
+                                         alt="slide" style="height: 100%;">
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">prev</span>
                         </a>
-                        <a class="carousel-control-next" href="#carousel-three" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carousel-three" role="button" data-slide="next" >
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">next</span>
                         </a>
@@ -107,7 +107,7 @@
             <span class="sr-only">prev</span>
         </a>
 
-        <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next" onclick="main_right()">
+        <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next" onclick="main_right()" style="right: -10px;">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">next</span>
         </a>
