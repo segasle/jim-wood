@@ -33,6 +33,12 @@
                             </div>
                             <div class="carousel-item first-inner">
                                 <div class="img">
+                                    <img class="d-block img-fluid" src="/img/tub.jpg"
+                                         alt="slide">
+                                </div>
+                            </div>
+                            <div class="carousel-item first-inner">
+                                <div class="img">
                                     <img class="d-block img-fluid" src="/img/hallway.jpg"
                                          alt="slide">
                                 </div>
