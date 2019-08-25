@@ -1,5 +1,4 @@
 @import 'animation.less';
-
 @cr: #000;
 @bg: #fff;
 @btn: #357e7e;
@@ -13,7 +12,6 @@
 body {
   font-size: 16px;
   font-family: @ff;
-
   font-weight: normal;
 }
 
@@ -24,7 +22,9 @@ a {
     text-decoration: none;
   }
 }
-
+ul{
+  list-style: none;
+}
 div {
   box-sizing: border-box;
 
@@ -107,6 +107,12 @@ header {
 }
 .padding{
   padding: 20px;
+}
+.margin{
+  margin: 10px;
+}
+.italics{
+  font-style: italic;
 }
 .menu {
   position: relative;
@@ -321,9 +327,11 @@ header {
   &-center{
     margin: auto;
     max-width: 968px;
+    display: table;
   }
 }
 ul.list{
+  list-style: circle;
   margin: 10px 0 0 30px;
   li{
     color: @bg;
@@ -331,8 +339,11 @@ ul.list{
   }
 }
 .cellar {
-  background: black;
-  height: 20px;
+  background: @btn;
+  color: @bg;
+  a{
+    color: @bg;
+  }
 }
 
 @media (min-width: 768px) {

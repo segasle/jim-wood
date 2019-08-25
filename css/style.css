@@ -22,6 +22,9 @@ a:hover,
 a:active {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 div {
   box-sizing: border-box;
 }
@@ -86,6 +89,12 @@ header {
 }
 .padding {
   padding: 20px;
+}
+.margin {
+  margin: 10px;
+}
+.italics {
+  font-style: italic;
 }
 .menu {
   position: relative;
@@ -246,8 +255,10 @@ header {
 .block-center {
   margin: auto;
   max-width: 968px;
+  display: table;
 }
 ul.list {
+  list-style: circle;
   margin: 10px 0 0 30px;
 }
 ul.list li {
@@ -255,8 +266,11 @@ ul.list li {
   margin: 10px 0;
 }
 .cellar {
-  background: black;
-  height: 20px;
+  background: #357e7e;
+  color: #fff;
+}
+.cellar a {
+  color: #fff;
 }
 @media (min-width: 768px) {
   .fa-align-justify {

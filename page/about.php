@@ -143,14 +143,14 @@
                 <ul>
                     <li><span class="fatty">Можно ли запросить пробный проект?</span>
                         <ul>
-                            <li class="margin">Да, в нашей компании действует и очень приветствуется
+                            <li class="margin italics">Да, в нашей компании действует и очень приветствуется
                                 такая БЕСПЛАТНАЯ опция, как заказ пробного проекта.
                             </li>
                         </ul>
                     </li>
                     <li><span class="fatty"> 	Каким образом происходит оплата услуг?</span>
                         <ul>
-                            <li class="margin">
+                            <li class="margin italics">
                                 У Вас есть возможность выбрать тип оплаты, состоящий
                                 из 2 этапов:
                                 <span class="fatty">предоплата (или аванс)</span>, после которой проект запускается в работу – 50%;
@@ -160,14 +160,14 @@
                     </li>
                     <li><span class="fatty"> 	Занимаемся ли мы встраиванием техники?</span>
                         <ul>
-                            <li class="margin">
+                            <li class="margin italics">
                                 Разумеется! Особенности и размеры вашей техники обговариваются еще на этапе проектирования.
                             </li>
                         </ul>
                     </li>
                     <li><span class="fatty"> 	Предоставляем ли мы сервисное обслуживание?</span>
                         <ul>
-                            <li class="margin">
+                            <li class="margin italics">
 
                                 Да, помимо гарантийных случаев (подразумевается бесплатное сервисное обслуживание), за разумные деньги производим дополнительные работы.
                             </li>
@@ -175,7 +175,60 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4"></div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <h5 class="h2">Онлайн форма обратной связи</h5>
+                <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо сейчас, и мы с удовольствием вам ответим</p>
+                <form enctype="" action="" method="post"
+                      class="form js-ajax-form__form" id="form-form_mail" data-form_id="11" data-goal="">
+                    <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
+                        <label for="xflexfield_62" class="field__label">
+                            Ваше имя
+                        </label>
+                        <div class="field__input">
+                            <input placeholder="Андрей" name="person" value="" type="text" id="xflexfield_62"
+                                   required="required" class="form-control form-control-lg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-6">
+                            <div class="field form__field form__field--name_phone form__field--type_short_text js-ajax-form__field js-ajax-form__field--phone">
+                                <label for="xflexfield_288" class="field__label">
+                                    Телефон
+                                </label>
+                                <div class="field__input">
+                                    <input class="form-control form-control-lg" type="text" id="xflexfield_288"
+                                           name="phone" placeholder="+7 999 999 99 99" value="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <div class="field form__field form__field--name_email form__field--type_short_text js-ajax-form__field js-ajax-form__field--email">
+                                <label for="xflexfield_289" class="field__label">
+                                    E-mail
+                                </label>
+                                <div class="field__input">
+                                    <input value="" name="email" placeholder="example@gmail.com" id="xflexfield_289"
+                                           type="text" class="form-control form-control-lg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field form__field form__field--name_content form__field--type_long_text js-ajax-form__field js-ajax-form__field--content">
+                        <div class="field__input">
+                            <textarea name="content" placeholder="Добавьте сообщение"
+                                      id="xflexfield_61" class="form-control form-control-lg"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form__submit field">
+                                <button type="submit" class="form__button button btn btn-success btn-lg">отпрвить
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
