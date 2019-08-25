@@ -84,6 +84,9 @@ header {
 .modal-content {
   height: 100%;
 }
+.padding {
+  padding: 20px;
+}
 .menu {
   position: relative;
   height: 100%;
@@ -159,8 +162,17 @@ header {
   position: absolute;
   z-index: -1;
 }
-.content .green {
+.fatty {
+  font-weight: bold;
+}
+.content .gray {
   background: rgba(127, 127, 127, 0.2);
+}
+.content .green {
+  background: #357e7e;
+}
+.content .green p {
+  color: #fff;
 }
 .carousel {
   max-width: 96%;
@@ -216,27 +228,31 @@ header {
   font-weight: bold;
   margin: auto;
 }
-.block {
-  height: inherit;
-}
 .block_bg {
-  background: url("/img/Kruglov.jpg") no-repeat center;
-  width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  padding: 50px 25px;
+  position: relative;
 }
-.block_text {
-  max-width: 500px;
-  margin: auto;
+.block_bg-text {
+  max-width: 100%;
   display: block;
   padding: 25px;
   box-shadow: inset 1px 2px 9px 6px rgba(0, 0, 0, 0.5);
   background: rgba(0, 0, 0, 0.29);
   color: #fff;
+  font-weight: bold;
 }
 .block_text-descriptions p span {
   padding-left: 30px;
+}
+.block-center {
+  margin: auto;
+  max-width: 968px;
+}
+ul.list {
+  margin: 10px 0 0 30px;
+}
+ul.list li {
+  color: #fff;
+  margin: 10px 0;
 }
 .cellar {
   background: black;
@@ -290,6 +306,15 @@ header {
 @media (min-width: 1700px) {
   .carousel-item .img {
     max-height: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .block_bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 900px;
   }
 }
 /*# sourceMappingURL=style.css.map */

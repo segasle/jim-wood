@@ -1,4 +1,4 @@
-<div class="block green">
+<div class="gray">
     <div id="carousel-main" class="carousel slide carousel-main" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item first main-item active">
