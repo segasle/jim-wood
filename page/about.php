@@ -37,10 +37,94 @@
             </div>
         </div>
     </div>
-    <div class="block_three">
+    <div class="block_three padding">
         <h3 class="h2 text-center">Как мы работаем с клиентом? </h3>
         <div class="block_table">
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+                    <img src="" alt="" class="w-100">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty"> Шаг 1: разработка концепции. </span>Выслушав ваши пожелания, дизайнер проектирует мебель, делает эскиз и 3Д-визуализацию интерьера. Специалист использует программное обеспечение уровня "премиум" SketchUp, позволяющее создать трёхмерную графику помещения с точностью до 95%. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+                    <img src="" alt="" class="w-100">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty"> Шаг 2: встреча с нашим сотрудником.</span> Мы представляем Вам дизайн-проект помещения. Уже на этом этапе, согласуясь с Вами, доводим его до совершенства. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+                    <img src="" alt="" class="w-100">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty">Шаг 3: подготовительные процедуры.  </span>Команда сотрудников производит замеры на объекте, затем составляется проектная документация: планирование сроков, составление бюджета.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">                    <img src="/img/IMG_5766.JPG" alt="" class="w-100">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty"> Шаг 4: </span>изготовление фрагментов мебельного гарнитура и согласование образцов с заказчиком</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+                <img src="/img/IMG_5771.jpg" alt="" class="w-100">
 
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty"> Шаг 5: производство на лучшей фабрике Чувашии.</span>Наши мастера изготавливают изделия, применяя высококлассное европейское оборудование</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">                    <img src="" alt="" class="w-100">
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty">Шаг 6: контроль качества.  </span>. Перед тем как отправить кухню на монтаж, она собирается на отдельном стенде, имитирующем помещение. Так наши специалисты оценивают качество кухни еще ДО того, как она станет частью вашего интерьера.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row padding">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+                    <img src="/img/Sukharkov1.jpg" alt="" class="w-100">
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                    <div class="block_text">
+                        <div class="block_text-descriptions">
+                            <p class=""><span class="fatty">Шаг 7: доставка и монтаж.  </span>Мы доставим вашу кухню на дом и смонтируем всё сами!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
