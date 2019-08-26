@@ -329,6 +329,22 @@ header {
     max-width: 968px;
     display: table;
   }
+  &_four{
+    ul{
+      li{
+        cursor: pointer;
+        margin: 25px 0;
+        > ul{
+          display: none;
+        }
+        &:active, &:hover, &:focus {
+          > ul{
+            display: block;
+          }
+        }
+      }
+    }
+  }
 }
 ul.list{
   list-style: circle;

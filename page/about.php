@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="green padding">
-            <p class="h2 text-center">Мебель на заказ - это:</p>
+            <p class="h2 text-center" style="padding-bottom: 10px;">Мебель на заказ - это:</p>
 
             <div class="row align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -49,11 +49,11 @@
     <div class="block_three padding">
         <h3 class="h1 text-center">Как мы работаем с клиентом? </h3>
         <div class="block_table">
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img src="" alt="" class="w-100">
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty"> Шаг 1: разработка концепции. </span>Выслушав ваши
@@ -64,11 +64,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img src="" alt="" class="w-100">
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty"> Шаг 2: встреча с нашим сотрудником.</span> Мы представляем
@@ -78,11 +78,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img src="" alt="" class="w-100">
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty">Шаг 3: подготовительные процедуры.  </span>Команда
@@ -92,11 +92,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8"><img src="/img/IMG_5766.JPG" alt=""
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="/img/IMG_5766.JPG" alt=""
                                                                               class="w-100">
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty"> Шаг 4: </span>изготовление фрагментов мебельного гарнитура
@@ -105,12 +105,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img src="/img/IMG_5771.jpg" alt="" class="w-100">
 
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty"> Шаг 5: производство на лучшей фабрике Чувашии.</span>Наши
@@ -119,11 +119,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8"><img src="" alt="" class="w-100">
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="" alt="" class="w-100">
 
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty">Шаг 6: контроль качества.  </span>. Перед тем как отправить
@@ -134,12 +134,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row padding">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-8">
+            <div class="row padding align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img src="/img/Sukharkov1.jpg" alt="" class="w-100">
 
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-4">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
                         <div class="block_text-descriptions">
                             <p class=""><span class="fatty">Шаг 7: доставка и монтаж.  </span>Мы доставим вашу кухню на
