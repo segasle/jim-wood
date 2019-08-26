@@ -27,8 +27,8 @@
             </div>
         </div>
         <div class="green padding">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <p class="h2 text-center">Мебель на заказ - это:</p>
                     <ul class="list">
                         <li> «Ваша фантазия – наше исполнение»</li>
@@ -39,7 +39,7 @@
                         <li> Гарантия качества и контроль сроков исполнения</li>
                     </ul>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-9">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <img src="/img/pine-cones.jpg" alt="" class="w-100">
                 </div>
             </div>
