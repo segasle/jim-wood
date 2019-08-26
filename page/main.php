@@ -4,7 +4,7 @@
             <div class="carousel-item first main-item active">
                 <div class="col-md-5 d-none d-md-block float-left">
                     <div class="carousel-text pl-3 pr-3">
-                        <p class="h3">Кухни на заказ в любом стиле</p>
+                        <p class="h2">Кухни на заказ в любом стиле</p>
                         <p>А также корпусная мебель в гостиную, прихожую, ванную, гардероб</p>
                         <a href="?page=portfolio" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
                     </div>
@@ -58,10 +58,10 @@
             <div class="carousel-item second main-item">
                 <div class="col-md-5 d-none d-md-block float-left">
                     <div class="carousel-text pl-3 pr-3">
-                        <p class="h3">Молодой бренд с богатым прошлым и грандиозными планами</p>
+                        <p class="h2">Молодой бренд с богатым прошлым и грандиозными планами</p>
                         <p>Высокие технологии производства, индивидуальный подход к клиенту, регулярная обратная
                             связь</p>
-                        <a href="?page=" class="w-100 btn btn-outline-primary">Узнать больше о Jim Wood</a>
+                        <a href="?page=about" class="w-100 btn btn-outline-primary">Узнать больше о Jim Wood</a>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-12 col-12 float-right">
@@ -73,10 +73,10 @@
             <div class="carousel-item main-item third">
                 <div class="col-md-5 d-none d-md-block float-left">
                     <div class="carousel-text pl-3 pr-3">
-                        <p class="h3">Как нас найти? </p>
+                        <p class="h2">Как нас найти? </p>
                         <p>Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш
                             Instagram!</p>
-                        <a href="?page=" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
+                        <a href="?page=contacts" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-12 col-12 float-right">
