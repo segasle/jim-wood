@@ -251,6 +251,9 @@ header {
 .block_text-descriptions p span {
   padding-left: 30px;
 }
+.block_text-descriptions a {
+  color: #357e7e;
+}
 .block-center {
   margin: auto;
   max-width: 968px;
