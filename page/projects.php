@@ -8,105 +8,24 @@
         </p>
     </div>
 </div>
-<div class="row align-items-center padding">
+<?php
+    $sql = do_query("SELECT * FROM `portfolio`");
+    foreach ($sql as $item){
+        echo '<div class="row align-items-center padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="/img/DSCF7176.jpg" alt="" class="w-100">
+        <img src="/img/portfolio/'.$item['img'].'" alt="'.$item['text'].'" class="w-100">
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
         <div class="block_text">
             <div class="block_text-descriptions">
-                <p class="fatty">Традиционная итальянская классика в большой квартире
-                </p>
-                <p><a href="">
+                <p class="fatty">'.$item['text'].'</p>
+                <p><a href="'.$item['link'].'">
                         Подробнее
                     </a></p>
             </div>
         </div>
     </div>
-</div>
-<div class="row align-items-center padding">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="/img/IMG_1959.jpg" alt="" class="w-100">
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-        <div class="block_text">
-            <div class="block_text-descriptions">
-                <p class="fatty">Комплексная мебелировка квартиры в современном стиле
-                </p>
-                <p><a href="">
-                        Подробнее
-                    </a></p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row align-items-center padding">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="/img/IMG_5511.jpg" alt="" class="w-100">
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-        <div class="block_text">
-            <div class="block_text-descriptions">
-                <p class="fatty">Современный минимализм в серых тонах
-                </p>
-                <p><a href="">
-                        Подробнее
-                    </a></p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row align-items-center padding">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="/img/cookers.jpg" alt="" class="w-100">
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-        <div class="block_text">
-            <div class="block_text-descriptions">
-                <p class="fatty">Кухня-модерн в коттедж
-                </p>
-                <p><a href="">
-                        Подробнее
-                    </a></p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row align-items-center padding">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="/img/IMG_0012.jpg" alt="" class="w-100">
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-        <div class="block_text">
-            <div class="block_text-descriptions">
-                <p class="fatty">Современная белая кухня
-                </p>
-                <p><a href="">
-                        Подробнее
-                    </a></p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row align-items-center padding">
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <img src="/img/antaranyan.jpg" alt="" class="w-100">
-    </div>
-    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-        <div class="block_text">
-            <div class="block_text-descriptions">
-                <p class="fatty">Традиционная классика и шейкер в одном флаконе
-                </p>
-                <p><a href="">
-                        Подробнее
-                    </a></p>
-            </div>
-        </div>
-    </div>
-</div>
+</div>';
+    }
+?>
