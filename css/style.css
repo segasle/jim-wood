@@ -279,6 +279,9 @@ ul.list li {
   color: #fff;
   margin: 10px 0;
 }
+table tr td {
+  padding: 10px;
+}
 .cellar {
   background: #357e7e;
   color: #fff;
