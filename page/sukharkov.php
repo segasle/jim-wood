@@ -23,6 +23,9 @@
                 <div class="carousel-item">
                     <img class="d-block w-100" src="/img/sukharkov/IMG_1982.jpg" alt="Третий слайд">
                 </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="/img/sukharkov/IMG_1990.jpg" alt="Третий слайд">
+                </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
