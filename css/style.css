@@ -248,6 +248,9 @@ header {
   color: #fff;
   font-weight: bold;
 }
+.block_text-descriptions p {
+  text-align: justify;
+}
 .block_text-descriptions p span {
   padding-left: 30px;
 }
@@ -284,6 +287,9 @@ table {
 }
 table tr td {
   padding: 10px;
+}
+table tr td ul {
+  list-style: disc;
 }
 .cellar {
   background: #357e7e;
