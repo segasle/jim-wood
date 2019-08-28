@@ -279,6 +279,9 @@ ul.list li {
   color: #fff;
   margin: 10px 0;
 }
+table {
+  table-layout: fixed;
+}
 table tr td {
   padding: 10px;
 }
