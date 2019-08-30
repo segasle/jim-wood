@@ -48,7 +48,7 @@ function feeback(){
             $phoneto ='Номер:' . $phone ."\n";
             $emailto ='Почта:' . $email ."\n";
             $txtto ='Сообщение:' . $data['content'] ."\n";
-            $mess = $name.$phoneto.$emailto.$txtto;
+            $mess = $nameto.$phoneto.$emailto.$txtto;
             $result = do_query("SELECT COUNT(*) as count FROM feedback WHERE `email` = '{$email}'");
             $result = $result->fetch_object();
             if (empty($result->count)) {
@@ -63,10 +63,13 @@ function feeback(){
                         "Content-Type: text/html; charset=\"UTF-8\"\r\n"
                         . 'X-Mailer: PHP/' . phpversion();
                     $mail = mail("$to", "$subject", "$message", "$headers");
-                    //$out = '<div class="go">Успешно зарегиревались</div>';
+                    //$out =
+                    if ($mail){
+                        echo  '<div class="go">Успешно</div>';
+                    }
                 }
             } else {
-                $out = '<div class="errors">Такая электронная почта уже есть</div>';
+                echo '<div class="errors">Такая электронная почта уже есть</div>';
             }
         }else{
             echo '<div class="errors">'.array_shift($errors).'</div>';
