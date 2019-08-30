@@ -207,7 +207,8 @@
                 <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
                 <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
-                <form enctype="" action="" method="post"
+                <?php feeback(); ?>
+                <form action="" method="post"
                       class="form js-ajax-form__form" id="form-form_mail" data-form_id="11" data-goal="">
                     <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
                         <label for="xflexfield_62" class="field__label">
@@ -245,13 +246,13 @@
                     <div class="field form__field form__field--name_content form__field--type_long_text js-ajax-form__field js-ajax-form__field--content">
                         <div class="field__input">
                             <textarea name="content" placeholder="Добавьте сообщение"
-                                      id="xflexfield_61" class="form-control form-control-lg"></textarea>
+                                       class="form-control form-control-lg"></textarea>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg">Отправить
+                                <button type="submit" class="form__button button btn btn-success btn-lg" name="button">Отправить
                                 </button>
                             </div>
                         </div>
