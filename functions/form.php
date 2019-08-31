@@ -5,13 +5,13 @@
  * Date: 2019-08-07
  * Time: 19:47
  */
-if (isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     $data = $_POST;
     $errors = array();
     $name = $data['person'];
     $email = $data['email'];
     $phone = $data['phone'];
-    if (!preg_match("/^[a-zA-Zа-яА-Я]+$/ui", $name)){
+    if (!preg_match("/^[a-zA-Zа-яА-Я]+$/ui", $name)) {
         $errors[] = 'Не правильно ввели имя';
     }
 
@@ -21,10 +21,10 @@ if (isset($_POST['submit'])){
     if (!preg_match("/^(?!.*@.*@.*$)(?!.*@.*\-\-.*\..*$)(?!.*@.*\-\..*$)(?!.*@.*\-$)(.*@.+(\..{1,11})?)$/", "$email")) {
         $errors[] = 'Вы неправильно ввели электронную почту';
     }
-    if (empty($data['content'])){
+    if (empty($data['content'])) {
         $errors[] = 'Не ввели сообщения';
     }
-    if (empty($errors)){
+    if (empty($errors)) {
         if (isset($_FILES['file'])) {
             $update = 'download/';
             $file = $_FILES['file']['name'];
@@ -38,15 +38,11 @@ if (isset($_POST['submit'])){
                         $allow = array('jpeg', 'jpg', 'png', 'xlsx', 'docx');
                         if (in_array($ext, $allow)) {
                             if (move_uploaded_file($_FILES['file']['tmp_name'], $update_file)) {
-                                $result = do_query("SELECT COUNT(*) as count FROM `ads` WHERE `title` = '{$data['title']}'");
-                                $result = $result->fetch_object();
-                                if (empty($result->count)) {
-                                    $wer = do_query("INSERT INTO `ads` (`vaul`,`title`, `price`,  `text`, `photo`, `author_id` ) VALUES ('{$data['value']}','{$data['title']}','{$data['price']}', '{$data['text']}','{$file}','{$_SESSION['email']}')");
-                                    if (!empty($wer)) {
-                                        echo '<div class="go">Успешно подано</div>';
-                                    } else {
-                                        echo '<div class="errors">Такая запись уже есть</div>';
-                                    }
+                                $wer = do_query("INSERT INTO `feedback`(`email`, `name`, `phone`, `text`, `dock` VALUES ('{$email}','{$name}','{$phone}', '{$data['content']}','{$file}')");
+                                if (!empty($wer)) {
+                                    echo '<div class="go">Успешно подано</div>';
+                                } else {
+                                    echo '<div class="errors">Такая запись уже есть</div>';
                                 }
                             }
                         }
