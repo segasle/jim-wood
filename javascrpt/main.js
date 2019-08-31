@@ -2,7 +2,6 @@
  * Подвал прижатый к внизу экрану
  */
 $(function() {
-
     $("body").css({padding:0,margin:0});
     var f = function() {
         $(".ndra-container").css({position:"relative"});
@@ -19,7 +18,30 @@ $(function() {
     $(window).resize(f);
     f();
 
+    $(".phone-number").each(function() {
+        $(this).mask("+7 (999) 999-99-99");
+    });
 });
+
+
+$('#loginform').click(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: "/functions/function.php",
+            data: {functionname: 'feeback', arguments: $(this).serialize()},
+            success: function()
+            {
+                alert('ok!');
+            },
+            error: function() {
+                alert('ne ok!');
+            } 
+       });
+     });
+
+
+
 /**
  * Меню фикстровать повверх контента при скролле
  */
@@ -68,3 +90,5 @@ function main_left() {
       }
     })
 }
+
+
