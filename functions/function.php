@@ -44,10 +44,10 @@ function feeback(){
             $errors[] = 'Не ввели сообщения';
         }
         if (empty($errors)){
-            $nameto ='Имя:' . $name ."\n";
-            $phoneto ='Номер:' . $phone ."\n";
-            $emailto ='Почта:' . $email ."\n";
-            $txtto ='Сообщение:' . $data['content'] ."\n";
+            $nameto ='Имя:' . $name ."<br>";
+            $phoneto ='Номер:' . $phone ."<br>";
+            $emailto ='Почта:' . $email ."<br>";
+            $txtto ='Сообщение:' . $data['content'] ."<br>";
             $mess = $nameto.$phoneto.$emailto.$txtto;
             $result = do_query("SELECT COUNT(*) as count FROM feedback WHERE `email` = '{$email}'");
             $result = $result->fetch_object();
