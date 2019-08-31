@@ -23,6 +23,9 @@ $mail = 'jim-owner@yandex.ru';
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 align-self-center">
                 <a href="https://www.instagram.com/jim_wood_/?igshid=yczjh842drd6" target="_blank" class="fa fa-instagram fa-3x pull-right"></a>
             </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p>Сайт сделан разработчиком <a href="https://ssd18.ru" style="text-decoration-line: underline;" target="_blank">Сергеем Слепенковым</a></p>
+            </div>
         </div>
     </div>
 </footer>
