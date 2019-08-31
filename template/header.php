@@ -89,7 +89,7 @@
                         <div class="field__input">
                             <div class="jq-file" id="xflexfield_213-styler">
 
-                                <input type="file" id="exampleInputFile" accept="image/jpeg,image/png" name="file"
+                                <input type="file" id="exampleInputFile" name="file"
                                        class="inputfile hide"
                                        data-multiple-caption="{count} files selected" multiple>
                                 <label
@@ -98,14 +98,10 @@
                             </div>
                         </div>
                     </div>
-
-
-                    <input type="hidden" name="_action" value="send_form">
-                    <input type="hidden" name="form_id" value="11">
                     <div class="row">
                         <div class="col-4">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg">Посчитать
+                                <button type="submit" name="submit" class="form__button button btn btn-success btn-lg">Посчитать
                                     проект
                                 </button>
                             </div>
