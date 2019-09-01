@@ -64,6 +64,8 @@ if (isset($_POST['submit'])) {
                     }
                 }
             }
+        }else{
+            echo '<div class="errors">Не выбран файл</div>';
         }
     }
 }
