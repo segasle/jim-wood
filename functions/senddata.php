@@ -1,5 +1,6 @@
 <?php
     include 'bd.php';
+    include 'function.php';
     $data = $_POST;
     $errors = array();
     $name = $data['person'];
@@ -23,10 +24,10 @@
         $emailto ='Почта:' . $email ."<br>";
         $txtto ='Сообщение:' . $data['content'] ."<br>";
         $mess = $nameto.$phoneto.$emailto.$txtto;
-        $result = mysqli_query($mysqli, "SELECT COUNT(*) as count FROM feedback WHERE `email` = '{$email}'");
+        $result = do_query("SELECT COUNT(*) as count FROM feedback WHERE `email` = '{$email}'");
         $result = $result->fetch_object();
         if (empty($result->count)) {
-            $wer = mysqli_query($mysqli, "INSERT INTO feedback (`email`, `name`, `phone`, `text`) VALUES ('{$email}','{$name}','{$phone}','{$data['content']}')");
+            $wer = do_query("INSERT INTO feedback (`email`, `name`, `phone`, `text`) VALUES ('{$email}','{$name}','{$phone}','{$data['content']}')");
             if (!empty($wer)) {
                 $to = 'jim-owner@yandex.ru';
                 $subject = 'обратная связь';
