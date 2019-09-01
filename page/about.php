@@ -208,8 +208,10 @@
                 <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
                 <!--<?php feeback(); ?>-->
+                <div class="answer"></div>
                 <form action="" method="post"
-                      class="form js-ajax-form__form" id="form-form_mail" data-form_id="11" data-goal="">
+                      class="form js-ajax-form__form form-request" id="form-form_mail" data-form_id="11" data-goal="">
+                    <input type="hidden" name="token" value="<?php echo $_SESSION['csrf_token']; ?>" />
                     <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
                         <label for="xflexfield_62" class="field__label">
                             Ваше имя
@@ -227,7 +229,7 @@
                                 </label>
                                 <div class="field__input">
                                     <input class="form-control form-control-lg phone-number" type="text" id="xflexfield_288"
-                                           name="phone" placeholder="+7 999 999 99 99" value="">
+                                           name="phone" placeholder="+7 999 999 99 99" value="" required="required">
                                 </div>
                             </div>
                         </div>
@@ -238,7 +240,7 @@
                                 </label>
                                 <div class="field__input">
                                     <input value="" name="email" placeholder="example@gmail.com" id="xflexfield_289"
-                                           type="text" class="form-control form-control-lg">
+                                           type="email" class="form-control form-control-lg" required="required">
                                 </div>
                             </div>
                         </div>
@@ -246,13 +248,13 @@
                     <div class="field form__field form__field--name_content form__field--type_long_text js-ajax-form__field js-ajax-form__field--content">
                         <div class="field__input">
                             <textarea name="content" placeholder="Добавьте сообщение"
-                                       class="form-control form-control-lg"></textarea>
+                                       class="form-control form-control-lg" required="required"></textarea>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg" name="button" id="loginform">Отправить
+                                <button type="submit" class="form__button button btn btn-success btn-lg" name="button" id="sendfrm">Отправить
                                 </button>
                             </div>
                         </div>
