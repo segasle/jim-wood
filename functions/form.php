@@ -40,8 +40,21 @@ if (isset($_POST['submit'])) {
                         $allow = array('jpeg', 'jpg', 'png', 'xlsx', 'docx');
                         if (in_array($ext, $allow)) {
                             if (move_uploaded_file($_FILES['file']['tmp_name'], $update_file)) {
+                                $nameto ='Имя:' . $name ."<br>";
+                                $phoneto ='Номер:' . $phone ."<br>";
+                                $emailto ='Почта:' . $email ."<br>";
+                                $txtto ='Сообщение:' . $data['content'] ."<br>";
+                                $mess = $nameto.$phoneto.$emailto.$txtto;
                                 $wer = do_query("INSERT INTO `feedback`(`email`, `name`, `phone`, `text`, `dock` VALUES ('{$email}','{$name}','{$phone}', '{$data['content']}','{$file}')");
                                 if (!empty($wer)) {
+                                    $to = 'jim-owner@yandex.ru';
+                                    $subject = 'обратная связь';
+                                    $message = "$mess";
+                                    $headers = 'From: segasle@kafe-lyi.ru' . "\r\n" .
+                                        'Reply-To: segasle@kafe-lyi.ru' . "\r\n" .
+                                        "Content-Type: text/html; charset=\"UTF-8\"\r\n"
+                                        . 'X-Mailer: PHP/' . phpversion();
+                                    $mail = mail("$to", "$subject", "$message", "$headers");
                                     echo '<div class="go">Успешно подано</div>';
                                 } else {
                                     echo '<div class="errors">Такая запись уже есть</div>';
