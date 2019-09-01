@@ -19,26 +19,28 @@ $(function() {
     f();
 
     $(".phone-number").each(function() {
-        $(this).mask("+7 (999) 999-99-99");
+        $(this).mask("+7(999)999-99-99");
     });
 });
 
 
-$('#loginform').click(function(e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url: "/functions/function.php",
-            data: {functionname: 'feeback', arguments: $(this).serialize()},
-            success: function()
-            {
-                alert('ok!');
-            },
-            error: function() {
-                alert('ne ok!');
-            } 
-       });
-     });
+$('#sendfrm').click(function(e) {
+    e.preventDefault();
+    var t = $('.form-request').serialize();
+    $.ajax({
+        type: "POST",
+        url: "/functions/senddata.php",
+        data: $('.form-request').serialize(),
+        success: function(data)
+        {
+            $('.answer').html(data);
+        },
+        error: function(data) 
+        {
+            $('.answer').html('<div class="errors">Ошибка отправки формы</div>');
+        }
+    });
+});
 
 
 
