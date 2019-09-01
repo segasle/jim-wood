@@ -1,4 +1,6 @@
 <?php
+include 'bd.php';
+include 'function.php';
 /**
  * Created by PhpStorm.
  * User: sergejslepenkov
