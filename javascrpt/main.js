@@ -42,6 +42,24 @@ $('#sendfrm').click(function(e) {
     });
 });
 
+$('#sendmodal').click(function(e) {
+    e.preventDefault();
+    var t = $('.form-request').serialize();
+    $.ajax({
+        type: "POST",
+        url: "/functions/form.php",
+        data: $('.form-modal').serialize(),
+        success: function(data)
+        {
+            $('.answer-modal').html(data);
+        },
+        error: function(data) 
+        {
+            $('.answer-modal').html('<div class="errors">Ошибка отправки формы</div>');
+        }
+    });
+});
+
 
 
 /**

@@ -38,8 +38,9 @@
                 </button>
             </div>
             <div class="modal-body">
+                <div class="answer-modal"></div>
                 <form enctype="multipart/form-data" action="" method="post"
-                      class="form js-ajax-form__form" id="form-form_mail" data-form_id="11" data-goal="">
+                      class="form js-ajax-form__form form-modal" id="form-form_mail" data-form_id="11" data-goal="">
                     <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
                         <label for="xflexfield_62" class="field__label">
                             Ваше имя
@@ -56,7 +57,7 @@
                                     Телефон
                                 </label>
                                 <div class="field__input">
-                                    <input class="form-control form-control-lg" type="text" id="xflexfield_288"
+                                    <input class="form-control form-control-lg phone-number" type="text" id="xflexfield_288"
                                            name="phone" placeholder="+7 999 999 99 99" value="">
                                 </div>
                             </div>
@@ -89,7 +90,7 @@
                         <div class="field__input">
                             <div class="jq-file" id="xflexfield_213-styler">
 
-                                <input type="file" id="exampleInputFile" name="file"
+                                <input type="file" id="exampleInputFile" accept="image/jpeg,image/png" name="file"
                                        class="inputfile hide"
                                        data-multiple-caption="{count} files selected" multiple>
                                 <label
@@ -98,10 +99,14 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <input type="hidden" name="_action" value="send_form">
+                    <input type="hidden" name="form_id" value="11">
                     <div class="row">
                         <div class="col-4">
                             <div class="form__submit field">
-                                <button type="submit" name="submit" class="form__button button btn btn-success btn-lg">Посчитать
+                                <button type="submit" class="form__button button btn btn-success btn-lg" id="sendmodal">Посчитать
                                     проект
                                 </button>
                             </div>

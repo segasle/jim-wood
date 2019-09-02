@@ -7,7 +7,6 @@ include 'function.php';
  * Date: 2019-08-07
  * Time: 19:47
  */
-if (isset($_POST['submit'])) {
     $data = $_POST;
     $errors = array();
     $name = $data['person'];
@@ -67,5 +66,6 @@ if (isset($_POST['submit'])) {
         }else{
             echo '<div class="errors">Не выбран файл</div>';
         }
+    } else {
+        echo '<div class="errors">'.array_shift($errors).'</div>';
     }
-}
