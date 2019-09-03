@@ -1,4 +1,5 @@
 <?php
+
 include 'bd.php';
 include 'function.php';
 /**
@@ -15,7 +16,6 @@ $phone = $data['phone'];
 if (!preg_match("/^[a-zA-Zа-яА-Я]+$/ui", $name)) {
     $errors[] = 'Не правильно ввели имя';
 }
-
 if (!preg_match("/(^(?!\+.*\(.*\).*\-\-.*$)(?!\+.*\(.*\).*\-$)(\+[0-9]{1,3}\([0-9]{1,3}\)[0-9]{1}([-0-9]{0,8})?([0-9]{0,1})?)$)|(^[0-9]{1,4}$)/", "$phone")) {
     $errors[] = "Вы непраильно ввели номер телефона, пример: +7(915)5473712";
 }
@@ -58,7 +58,6 @@ if (empty($errors)) {
                                     $mail = mail("$to", "$subject", "$message", "$headers");
                                     if ($mail){
                                         echo '<div class="go">Успешно подано</div>';
-
                                     }
                                 } else {
                                     echo '<div class="errors">Такая запись уже есть</div>';
