@@ -207,7 +207,6 @@
                 <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
                 <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
-                <!--<?php feeback(); ?>-->
                 <div class="answer"></div>
                 <form action="" method="post"
                       class="form js-ajax-form__form form-request" id="form-form_mail" data-form_id="11" data-goal="">
