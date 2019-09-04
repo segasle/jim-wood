@@ -31,31 +31,34 @@ $('#sendfrm').click(function(e) {
         type: "POST",
         url: "/functions/senddata.php",
         data: $('.form-request').serialize(),
-        success: function(data)
-        {
+        success: function(data) {
             $('.answer').html(data);
         },
-        error: function(data) 
-        {
+        error: function() {
             $('.answer').html('<div class="errors">Ошибка отправки формы</div>');
         }
     });
 });
 
+
+
 $('#sendmodal').click(function(e) {
     e.preventDefault();
-    var t = $('.form-request').serialize();
+    var formElement = document.getElementsByClassName("form-modal");
+    var formData = new FormData(formElement[0]);
     $.ajax({
-        type: "POST",
-        url: "/functions/form.php",
-        data: $('.form-modal').serialize(),
-        success: function(data)
-        {
+        type: 'POST',
+        url: '/functions/form.php',
+        data: formData,
+        dataType: 'json',
+        contentType: false,
+        cache: false,
+        processData:false,
+        success: function(data) {
             $('.answer-modal').html(data);
         },
-        error: function(data) 
-        {
-            $('.answer-modal').html('<div class="errors">Ошибка отправки формы</div>');
+        error: function(error, exception) {
+            $('.answer-modal').html(error.responseText);
         }
     });
 });

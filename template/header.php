@@ -90,9 +90,9 @@
                         <div class="field__input">
                             <div class="jq-file" id="xflexfield_213-styler">
 
-                                <input type="file" id="exampleInputFile" name="file"
+                                <input type="file" id="exampleInputFile" accept="image/jpeg,image/png" name="file"
                                        class="inputfile hide"
-                                       data-multiple-caption="{count} files selected" multiple>
+                                       data-multiple-caption="{count} files selected">
                                 <label
                                         for="exampleInputFile"
                                         class="btn-outline-secondary btn btn-default btn-lg btn-block"><span>Выбрать</span></label>
