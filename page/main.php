@@ -91,7 +91,7 @@
                             <div class="carousel-item three-inner">
                                 <div class="img">
                                     <img class="d-block img-fluid" src="/img/Lavaur.jpg"
-                                         alt="slide" style="height: 100%;">
+                                         alt="slide">
                                 </div>
                             </div>
                         </div>

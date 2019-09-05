@@ -227,7 +227,6 @@ header {
 }
 .carousel-item {
   opacity: 0;
-  max-height: 600px;
 }
 .carousel-item.active {
   opacity: 1;
