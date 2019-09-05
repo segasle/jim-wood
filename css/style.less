@@ -44,33 +44,19 @@ div {
 .go{
   background: @btn;
 }
-.btn {
+button.btn {
   white-space: normal;
   text-align: center;
   width: 100%;
-  &-outline {
-    &-primary {
-      border: none;
-      background: @btn;
-      color: @cr;
-
-      &:hover {
-        background: lighten(@btn, 5%);
-      }
-    }
-  }
-
-  &-primary {
-    border: none;
-    background: @btn;
-    color: @cr;
-
-    &:hover {
-      background: lighten(@btn, 5%);
-    }
+}
+.btn-outline-primary, .btn-primary{
+  background: @btn;
+  color: @cr;
+  border: none;
+  &:hover {
+    background: lighten(@btn, 5%);
   }
 }
-
 .label {
   &-none {
     cursor: pointer;

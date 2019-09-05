@@ -1,4 +1,5 @@
-<h1 class="text-center">
+<a href="?page=projects" class="btn btn-primary">Назад к проектам</a>
+<h1 class="text-center h2 fatty">
     Современный минимализм в серых тонах
 </h1>
 

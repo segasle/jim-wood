@@ -1,4 +1,5 @@
-<h1 class="text-center">Современный шейкер и традиционная классика в одном флаконе</h1>
+<a href="?page=projects" class="btn btn-primary">Назад к проектам</a>
+<h1 class="text-center h2 fatty">Современный шейкер и традиционная классика в одном флаконе</h1>
 
 <div class="block_text block-center">
     <div class="block_text-descriptions">

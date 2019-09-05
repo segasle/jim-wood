@@ -44,24 +44,18 @@ div:before {
 .go {
   background: #357e7e;
 }
-.btn {
+button.btn {
   white-space: normal;
   text-align: center;
   width: 100%;
 }
-.btn-outline-primary {
-  border: none;
-  background: #357e7e;
-  color: #000;
-}
-.btn-outline-primary:hover {
-  background: #3d9090;
-}
+.btn-outline-primary,
 .btn-primary {
-  border: none;
   background: #357e7e;
   color: #000;
+  border: none;
 }
+.btn-outline-primary:hover,
 .btn-primary:hover {
   background: #3d9090;
 }

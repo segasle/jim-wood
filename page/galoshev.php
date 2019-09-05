@@ -1,4 +1,6 @@
-<h1 class="text-center">Традиционная итальянская классика в большой квартире</h1>
+<a href="?page=projects" class="btn btn-primary">Назад к проектам</a>
+
+<h1 class="text-center h2 fatty">Традиционная итальянская классика в большой квартире</h1>
 
 <div class="block_text block-center">
     <div class="block_text-descriptions">

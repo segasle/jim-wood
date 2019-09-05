@@ -158,8 +158,7 @@
                                 }
                                 ?>
 
-                                <button type="button" class="btn btn-primary mod" data-toggle="modal" data-target="#exampleModal">посчитать проект
-                                </button>
+                                <button type="button" class="btn btn-primary mod" data-toggle="modal" data-target="#exampleModal">посчитать проект</button>
                             </ul>
                         </nav>
                     </div>

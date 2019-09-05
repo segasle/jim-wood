@@ -1,4 +1,5 @@
-<h1 class="text-center">
+<a href="?page=projects" class="btn btn-primary">Назад к проектам</a>
+<h1 class="text-center fatty h2">
     Комплексная мебелировка квартиры в современном стиле
 </h1>
 
