@@ -52,7 +52,30 @@
         <div class="block_table">
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="" alt="" class="w-100">
+                    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC5280.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5295.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5310.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5331.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
@@ -67,7 +90,24 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="" alt="" class="w-100">
+                    <div id="carouselExampleControls2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC5158.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5183.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
@@ -81,7 +121,33 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="" alt="" class="w-100">
+                    <div id="carouselExampleControls3" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC5268.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5256.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5112.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5119.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5090.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
@@ -94,8 +160,31 @@
                 </div>
             </div>
             <div class="row padding align-items-center">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="/img/IMG_5766.JPG" alt=""
-                                                                              class="w-100">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div id="carouselExampleControls4" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC5057.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5207.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5222.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4962.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
@@ -108,8 +197,39 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="/img/IMG_5771.jpg" alt="" class="w-100">
-
+                    <div id="carouselExampleControls5" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC4799.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4802.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4848.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4869.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4918.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4982.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4986.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
@@ -121,8 +241,28 @@
                 </div>
             </div>
             <div class="row padding align-items-center">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="" alt="" class="w-100">
-
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div id="carouselExampleControls6" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC5067.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4968.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC4970.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls6" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls6" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
@@ -137,8 +277,24 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="/img/Sukharkov1.jpg" alt="" class="w-100">
-
+                    <div id="carouselExampleControls7" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="/img/customer/_DSC5222.JPG" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5225.JPG" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls7" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls7" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="block_text">
