@@ -9,26 +9,105 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/img/antaranyan/IMG_5302.jpg" alt="Первый слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/antaranyan/IMG_5313.jpg" alt="Второй слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/antaranyan/IMG_5316.jpg" alt="Третий слайд">
-                </div>
+        <a data-fancybox="gallery" href="/img/antaranyan/IMG_5302.jpg">
+            <img class="img-fluid" src="/img/antaranyan/IMG_5302.jpg">
+        </a>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5313.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5313.jpg">
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5316.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5316.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5323.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5323.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5329.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5329.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5343.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5343.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5350.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5350.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5376.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5376.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5500.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5500.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5410.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5410.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5412.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5412.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5440.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5440.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5456.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5456.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5467.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5467.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5472.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5472.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5483.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5483.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5493.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5493.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5374.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5374.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5379.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5379.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/antaranyan/IMG_5394.jpg">
+                  <img class="img-fluid" src="/img/antaranyan/IMG_5394.jpg">
+                </a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

@@ -12,32 +12,90 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/img/pine-cones/IMG_0012.jpg" alt="Первый слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/pine-cones/IMG_0036.jpg" alt="Второй слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/pine-cones/IMG_0042.jpg" alt="Третий слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/pine-cones/IMG_0053.jpg" alt="Третий слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/pine-cones/IMG_0178.jpg" alt="Третий слайд">
-                </div>
+        <a data-fancybox="gallery" href="/img/pine-cones/IMG_0012.jpg">
+            <img class="img-fluid" src="/img/pine-cones/IMG_0012.jpg">
+        </a>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0036.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0036.jpg">
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0042.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0042.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0053.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0053.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0085.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0085.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0097.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0097.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0099.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0099.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0108.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0108.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0136.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0136.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0139.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0139.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0172.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0172.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0178.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0178.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0180.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0180.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0197.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0197.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0203.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0203.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0201.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0201.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/pine-cones/IMG_0083.jpg">
+                  <img class="img-fluid" src="/img/pine-cones/IMG_0083.jpg">
+                </a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

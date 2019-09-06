@@ -13,29 +13,100 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/img/sukharkov/IMG_1959.jpg" alt="Первый слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/sukharkov/IMG_1948.jpg" alt="Второй слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/sukharkov/IMG_1982.jpg" alt="Третий слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/sukharkov/IMG_1990.jpg" alt="Третий слайд">
-                </div>
+        <a data-fancybox="gallery" href="/img/sukharkov/IMG_1959.jpg">
+            <img class="img-fluid" src="/img/sukharkov/IMG_1959.jpg">
+        </a>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_1948.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_1948.jpg">
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_1982.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_1982.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_1990.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_1990.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_1992.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_1992.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2017.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2017.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2042.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2042.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2049.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2049.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2057.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2057.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2071.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2071.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2079.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2079.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2105.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2105.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2130.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2130.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2133.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2133.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2137.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2137.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2157.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2157.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2169.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2169.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2174.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2174.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/sukharkov/IMG_2179.jpg">
+                  <img class="img-fluid" src="/img/sukharkov/IMG_2179.jpg">
+                </a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

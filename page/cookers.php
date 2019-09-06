@@ -13,26 +13,100 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/img/cookers/IMG_8183.jpg" alt="Первый слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/cookers/IMG_8184.jpg" alt="Второй слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/cookers/IMG_8207.jpg" alt="Третий слайд">
-                </div>
+        <a data-fancybox="gallery" href="/img/cookers/IMG_8183.jpg">
+            <img class="img-fluid" src="/img/cookers/IMG_8183.jpg">
+        </a>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8219.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8219.jpg">
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8227.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8227.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8238.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8238.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8250.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8250.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8255.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8255.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8273.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8273.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8278-2.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8278-2.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8278.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8278.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8283.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8283.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8310.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8310.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8314.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8314.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8324.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8324.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8327.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8327.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8333.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8333.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8342.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8342.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8346.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8346.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8207.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8207.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/cookers/IMG_8184.jpg">
+                  <img class="img-fluid" src="/img/cookers/IMG_8184.jpg">
+                </a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">

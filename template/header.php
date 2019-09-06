@@ -24,6 +24,7 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css?t=<?php echo(microtime(true) . rand()); ?>">
+    <link  href="https://itchief.ru/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
 </head>
 <body>
 

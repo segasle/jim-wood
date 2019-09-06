@@ -16,26 +16,125 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="/img/galoshev/DSCF7176.jpg" alt="Первый слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/galoshev/DSCF7164.jpg" alt="Второй слайд">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="/img/galoshev/DSCF7165.jpg" alt="Третий слайд">
-                </div>
+        <a data-fancybox="gallery" href="/img/galoshev/DSCF7176.jpg">
+            <img class="img-fluid" src="/img/galoshev/DSCF7176.jpg">
+        </a>
+        <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7164.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7164.jpg">
+                </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7165.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7165.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7171.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7171.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7185.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7185.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7194.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7194.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7196.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7196.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7210.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7210.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7214.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7214.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7218.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7218.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7222.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7222.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7235.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7235.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7238.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7238.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7243.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7243.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7258.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7258.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7263.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7263.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7275.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7275.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7266.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7266.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7267.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7267.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7272.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7272.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7212.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7212.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7215.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7215.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7246.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7246.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/galoshev/DSCF7252.jpg">
+                  <img class="img-fluid" src="/img/galoshev/DSCF7252.jpg">
+                </a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
