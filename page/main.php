@@ -4,9 +4,9 @@
             <div class="carousel-item first main-item active">
                 <div class="col-md-5 d-none d-md-block float-left">
                     <div class="carousel-text pl-3 pr-3">
-                        <p class="h2">Кухни на заказ в любом стиле</p>
+                        <p class="h2 fatty">Кухни на заказ в любом стиле</p>
                         <p>А также корпусная мебель в гостиную, прихожую, ванную, гардероб</p>
-                        <a href="?page=portfolio" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
+                        <a href="?page=projects" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
                     </div>
                 </div>
                 <div class="col-md-7 col-sm-12 col-12 float-right">
@@ -44,21 +44,13 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carousel-one" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">prev</span>
-                        </a>
-                        <a class="carousel-control-next mini" href="#carousel-one" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">next</span>
-                        </a>
                     </div>
                 </div>
             </div>
             <div class="carousel-item second main-item">
                 <div class="col-md-5 d-none d-md-block float-left">
                     <div class="carousel-text pl-3 pr-3">
-                        <p class="h2">Молодой бренд с богатым прошлым и грандиозными планами</p>
+                        <p class="h2 fatty">Молодой бренд с богатым прошлым и грандиозными планами</p>
                         <p>Высокие технологии производства, индивидуальный подход к клиенту, регулярная обратная
                             связь</p>
                         <a href="?page=about" class="w-100 btn btn-outline-primary">Узнать больше о Jim Wood</a>
@@ -73,7 +65,7 @@
             <div class="carousel-item main-item third">
                 <div class="col-md-5 d-none d-md-block float-left">
                     <div class="carousel-text pl-3 pr-3">
-                        <p class="h2">Как нас найти? </p>
+                        <p class="h2 fatty7">Как нас найти? </p>
                         <p>Мы находимся в Москве, производство сосредоточено в республике Чувашия. Заходите в наш
                             Instagram!</p>
                         <a href="?page=contacts" class="w-100 btn btn-outline-primary">Подробная контактная информация</a>
@@ -88,21 +80,8 @@
                                          alt="slide">
                                 </div>
                             </div>
-                            <div class="carousel-item three-inner">
-                                <div class="img">
-                                    <img class="d-block img-fluid" src="/img/Lavaur.jpg"
-                                         alt="slide">
-                                </div>
-                            </div>
+
                         </div>
-                        <a class="carousel-control-prev" href="#carousel-three" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">prev</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carousel-three" role="button" data-slide="next" >
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">next</span>
-                        </a>
                     </div>
                 </div>
             </div>

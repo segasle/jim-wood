@@ -4,6 +4,12 @@
 @btn: #357e7e;
 @hover: #068a1b;
 @ff: 'Merriweather', serif;
+@bg-ins: linear-gradient(240deg, rgb(255, 0, 53) 30%, rgb(177, 106, 250) 70%);
+.fa-instagram{
+  background: @bg-ins;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
 * {
   padding: 0;
   margin: 0;
@@ -74,6 +80,9 @@ button.mod {
 
 header {
   width: 100%;
+  .row{
+    align-items: center;
+  }
 }
 
 .logo {
@@ -224,7 +233,7 @@ header {
 
   &-text {
     padding-top: 20%;
-    font-weight: bold;
+ //   font-weight: bold;
     //max-width: 400px;
     text-align: center;
     margin: auto;
@@ -247,7 +256,7 @@ header {
     }
 
     &-prev {
-      left: 15px;
+      left: 0;
       //left: initial;
     }
   }
@@ -366,6 +375,7 @@ table{
 .cellar {
   background: @btn;
   color: @bg;
+  padding-bottom: 0;
   a{
     color: @bg;
   }
@@ -418,6 +428,9 @@ table{
         max-height: 470px;
       }
     }
+  }
+  .cellar{
+    padding-right: 65px;
   }
 }
 
