@@ -52,7 +52,8 @@
         <div class="block_table">
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide carousel-fade" data-interval="false"
+                         data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/img/customer/_DSC5280.JPG" class="d-block w-100" alt="...">
@@ -67,11 +68,13 @@
                                 <img src="/img/customer/_DSC5331.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -90,7 +93,8 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls2" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="carouselExampleControls2" class="carousel slide carousel-fade" data-ride="carousel"
+                         data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/img/customer/_DSC5158.JPG" class="d-block w-100" alt="...">
@@ -99,11 +103,13 @@
                                 <img src="/img/customer/_DSC5183.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls2" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -121,7 +127,8 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls3" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="carouselExampleControls3" class="carousel slide carousel-fade" data-ride="carousel"
+                         data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/img/customer/_DSC5268.JPG" class="d-block w-100" alt="...">
@@ -139,11 +146,13 @@
                                 <img src="/img/customer/_DSC5090.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls3" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -161,26 +170,31 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls4" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="carouselExampleControls4" class="carousel slide carousel-fade" data-ride="carousel"
+                         data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/img/customer/_DSC5057.JPG" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
                                 <img src="/img/customer/_DSC5207.JPG" class="d-block w-100" alt="...">
+
                             </div>
                             <div class="carousel-item">
-                                <img src="/img/customer/_DSC5222.JPG" class="d-block w-100" alt="...">
+                                <img src="/img/customer/_DSC5057.JPG" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/customer/_DSC5218.JPG" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
                                 <img src="/img/customer/_DSC4962.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls4" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls4" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -197,7 +211,8 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls5" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="carouselExampleControls5" class="carousel slide carousel-fade" data-ride="carousel"
+                         data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/img/customer/_DSC4799.JPG" class="d-block w-100" alt="...">
@@ -221,11 +236,13 @@
                                 <img src="/img/customer/_DSC4986.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls5" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls5" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -242,7 +259,8 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls6" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="carouselExampleControls6" class="carousel slide carousel-fade" data-ride="carousel"
+                         data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/img/customer/_DSC5067.JPG" class="d-block w-100" alt="...">
@@ -254,11 +272,13 @@
                                 <img src="/img/customer/_DSC4970.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls6" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls6" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls6" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls6" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -277,7 +297,8 @@
             </div>
             <div class="row padding align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div id="carouselExampleControls7" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                    <div id="carouselExampleControls7" class="carousel slide carousel-fade" data-ride="carousel"
+                         data-interval="false">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="/img/customer/_DSC5222.JPG" class="d-block w-100" alt="...">
@@ -286,11 +307,13 @@
                                 <img src="/img/customer/_DSC5225.JPG" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls7" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls7" role="button"
+                           data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls7" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls7" role="button"
+                           data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -317,8 +340,8 @@
         </div>
     </div>
     <div class="block_four">
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+        <div class="row align-items-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h4 class="h2">Рубрика «вопрос-ответ»</h4>
                 <ul>
                     <li><span class="fatty">Можно ли запросить пробный проект?</span>
@@ -359,14 +382,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
                 <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
                 <div class="answer"></div>
                 <form action="" method="post"
-                      class="form js-ajax-form__form form-request" id="form-form_mail" data-form_id="11" data-goal="">
-                    <input type="hidden" name="token" value="<?php echo $_SESSION['csrf_token']; ?>" />
+                      class="form js-ajax-form__form form-request block-center" id="form-form_mail" data-form_id="11" data-goal="">
+                    <input type="hidden" name="token" value="<?php echo $_SESSION['csrf_token']; ?>"/>
                     <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
                         <label for="xflexfield_62" class="field__label">
                             Ваше имя
@@ -383,7 +406,8 @@
                                     Телефон
                                 </label>
                                 <div class="field__input">
-                                    <input class="form-control form-control-lg phone-number" type="text" id="xflexfield_288"
+                                    <input class="form-control form-control-lg phone-number" type="text"
+                                           id="xflexfield_288"
                                            name="phone" placeholder="+7 999 999 99 99" value="" required="required">
                                 </div>
                             </div>
@@ -403,13 +427,14 @@
                     <div class="field form__field form__field--name_content form__field--type_long_text js-ajax-form__field js-ajax-form__field--content">
                         <div class="field__input">
                             <textarea name="content" placeholder="Добавьте сообщение"
-                                       class="form-control form-control-lg" required="required"></textarea>
+                                      class="form-control form-control-lg" required="required"></textarea>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg" name="button" id="sendfrm">Отправить
+                                <button type="submit" class="form__button button btn btn-success btn-lg" name="button"
+                                        id="sendfrm">Отправить
                                 </button>
                             </div>
                         </div>

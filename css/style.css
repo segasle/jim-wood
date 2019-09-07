@@ -364,6 +364,9 @@ table tr td ul {
   }
 }
 @media (min-width: 992px) {
+  .header {
+    padding-left: 50px;
+  }
   .align-items-center {
     align-items: center;
   }

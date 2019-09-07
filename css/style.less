@@ -1,15 +1,19 @@
 @import 'animation.less';
+
 @cr: #000;
 @bg: #fff;
 @btn: #357e7e;
 @hover: #068a1b;
 @ff: 'Merriweather', serif;
 @bg-ins: linear-gradient(240deg, rgb(255, 0, 53) 30%, rgb(177, 106, 250) 70%);
-.fa-instagram{
-  background: @bg-ins;
-  border-radius: 10px;
-  padding: 5px 10px;
+.fa {
+  &-instagram {
+    background: @bg-ins;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -28,9 +32,11 @@ a {
     text-decoration: none;
   }
 }
-ul{
+
+ul {
   list-style: none;
 }
+
 div {
   box-sizing: border-box;
 
@@ -41,28 +47,34 @@ div {
     display: block;
   }
 }
-.errors, .go{
+
+.errors, .go {
   background: red;
   padding: 5px;
   color: white;
   font-size: 23px;
 }
-.go{
+
+.go {
   background: @btn;
 }
+
 button.btn {
   white-space: normal;
   text-align: center;
   width: 100%;
 }
-.btn-outline-primary, .btn-primary{
+
+.btn-outline-primary, .btn-primary {
   background: @btn;
   color: @cr;
   border: none;
+
   &:hover {
     background: lighten(@btn, 5%);
   }
 }
+
 .label {
   &-none {
     cursor: pointer;
@@ -80,13 +92,15 @@ button.mod {
 
 header {
   width: 100%;
-  .row{
+
+  .row {
     align-items: center;
   }
 }
 
 .logo {
   width: 100%;
+
   .link {
     background: url("/img/logo.png") no-repeat center;
     display: block;
@@ -108,15 +122,19 @@ header {
     height: 100%;
   }
 }
-.padding{
+
+.padding {
   padding: 20px;
 }
-.margin{
+
+.margin {
   margin: 10px;
 }
-.italics{
+
+.italics {
   font-style: italic;
 }
+
 .menu {
   position: relative;
   height: 100%;
@@ -212,16 +230,20 @@ header {
     z-index: -1;
   }
 }
-.fatty{
+
+.fatty {
   font-weight: bold;
 }
+
 .content {
   .gray {
     background: rgba(127, 127, 127, 0.2);
   }
-  .green{
+
+  .green {
     background: @btn;
-    p{
+
+    p {
       color: @bg;
     }
   }
@@ -233,7 +255,7 @@ header {
 
   &-text {
     padding-top: 20%;
- //   font-weight: bold;
+    //   font-weight: bold;
     //max-width: 400px;
     text-align: center;
     margin: auto;
@@ -303,48 +325,56 @@ header {
   }
 }
 
-.block{
+.block {
   //height: inherit;
-  &_bg{
+  &_bg {
     position: relative;
-    &-text{
-    max-width: 100%;
-    display: block;
-    padding: 25px;
-    box-shadow: inset 1px 2px 9px 6px  rgba(0,0,0,0.5);
-    background: rgba(0,0,0,0.29);
-    color: @bg;
-    font-weight: bold;
+
+    &-text {
+      max-width: 100%;
+      display: block;
+      padding: 25px;
+      box-shadow: inset 1px 2px 9px 6px rgba(0, 0, 0, 0.5);
+      background: rgba(0, 0, 0, 0.29);
+      color: @bg;
+      font-weight: bold;
     }
   }
-  &_text{
-    &-descriptions{
-      p{
+
+  &_text {
+    &-descriptions {
+      p {
         text-align: justify;
-        span{
+
+        span {
           padding-left: 30px;
         }
       }
-      a{
+
+      a {
         color: @btn;
       }
     }
   }
-  &-center{
+
+  &-center {
     margin: auto;
     max-width: 968px;
     display: table;
   }
-  &_four{
-    ul{
-      li{
+
+  &_four {
+    ul {
+      li {
         cursor: pointer;
         margin: 25px 0;
-        > ul{
+
+        > ul {
           display: none;
         }
+
         &:active, &:hover, &:focus {
-          > ul{
+          > ul {
             display: block;
           }
         }
@@ -352,31 +382,38 @@ header {
     }
   }
 }
-ul.list{
+
+ul.list {
   list-style: circle;
   margin: 10px 0 0 30px;
-  li{
+
+  li {
     color: @bg;
-     margin: 10px 0;
+    margin: 10px 0;
   }
 }
-table{
+
+table {
   table-layout: fixed;
-  tr{
-    td{
+
+  tr {
+    td {
       padding: 10px;
-      ul{
+
+      ul {
         margin-left: 15px;
         list-style: disc;
       }
     }
   }
 }
+
 .cellar {
   background: @btn;
   color: @bg;
   padding-bottom: 0;
-  a{
+
+  a {
     color: @bg;
   }
 }
@@ -429,7 +466,8 @@ table{
       }
     }
   }
-  .cellar{
+
+  .cellar {
     padding-right: 65px;
   }
 }
@@ -483,23 +521,30 @@ table{
 
 // Большие девайсы (десктопы, >= 992px)
 @media (min-width: 992px) {
-  .align{
-    &-items{
-      &-center{
+
+  .header {
+    padding-left: 50px;
+  }
+
+  .align {
+    &-items {
+      &-center {
         align-items: center;
       }
     }
   }
-  h1, .h1{
+
+  h1, .h1 {
     font-size: 4.5rem;
   }
-  h2, .h2{
+
+  h2, .h2 {
     font-size: 3rem;
   }
 
-  .block{
-    &_bg{
-      &-text{
+  .block {
+    &_bg {
+      &-text {
         position: absolute;
         top: 50%;
         left: 50%;
