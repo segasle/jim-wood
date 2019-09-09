@@ -7,6 +7,10 @@
 
         </p>
     </div>
+    <?php
+    include 'template/instagram.php';
+    ?>
+
 </div>
 <?php
     $sql = do_query("SELECT * FROM `portfolio`");

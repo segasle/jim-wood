@@ -17,14 +17,15 @@
           content="<?php //echo $keywords; ?>">
     <meta name="description" content="<?php //echo $description; ?>">
     <title><?php //echo $title; ?></title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap&subset=cyrillic"
+          rel="stylesheet">
     <link rel="stylesheet" href="icons/css/all.css">
     <link rel="stylesheet" href="icons/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css?t=<?php echo(microtime(true) . rand()); ?>">
-    <link  href="https://itchief.ru/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="https://itchief.ru/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -58,7 +59,8 @@
                                     Телефон
                                 </label>
                                 <div class="field__input">
-                                    <input class="form-control form-control-lg phone-number" type="text" id="xflexfield_288"
+                                    <input class="form-control form-control-lg phone-number" type="text"
+                                           id="xflexfield_288"
                                            name="phone" placeholder="+7 999 999 99 99" value="">
                                 </div>
                             </div>
@@ -107,7 +109,8 @@
                     <div class="row">
                         <div class="col-4">
                             <div class="form__submit field">
-                                <button type="submit" class="form__button button btn btn-success btn-lg" id="sendmodal">Посчитать
+                                <button type="submit" class="form__button button btn btn-success btn-lg" id="sendmodal">
+                                    Посчитать
                                     проект
                                 </button>
                             </div>
@@ -131,17 +134,22 @@
     <header>
         <div class="header">
             <div class="row">
-                <div class="col-xl-1 col-sm-5 col-md-3 col-lg-3 col-6">
-                    <div class="logo">
-                        <a href="/" class="link"></a>
+                <div class="col-xl-2 col-sm-5 col-md-3 col-lg-3 col-6">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <div class="logo">
+                                <a href="/" class="link"></a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="slogan">Столярная
+                                <br> Мастерская
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-                <div class="col-12 col-sm-12 col-md-9 col-col-lg-3 col-xl-7">
-                    <?php
-                        include 'instagram.php';
-                    ?>
-                </div>
-                <div class="col-xl-4 col-sm-7 col-md-12 col-lg-6 col-6">
+                <div class="col-xl-10 col-sm-7 col-md-9 col-lg-9 col-6">
                     <div class="menu">
                         <input type="checkbox" id="checkbox">
                         <label class="burger label-none" for="checkbox">
@@ -164,7 +172,9 @@
                                 }
                                 ?>
 
-                                <button type="button" class="btn btn-primary mod" data-toggle="modal" data-target="#exampleModal">посчитать проект</button>
+                                <button type="button" class="btn btn-primary mod" data-toggle="modal"
+                                        data-target="#exampleModal">посчитать проект
+                                </button>
                             </ul>
                         </nav>
                     </div>
