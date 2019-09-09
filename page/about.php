@@ -329,21 +329,29 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="pull-right">
+                <div class="col-md-6 offset-md-6">
+                    <div class="">
                         <ul>
-                            <li class="fatty"> Все этапы уже включены в итоговую стоимость проекта.</li>
+                            <li class="fatty tab"> Все этапы уже включены в итоговую стоимость проекта.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="block_four">
+    <div class="block_four padding">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h4 class="h2 text-center">Рубрика «вопрос-ответ»</h4>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
+
+            </div>
+        </div>
         <div class="row align-items-center">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <h4 class="h2">Рубрика «вопрос-ответ»</h4>
-                <ul>
+                <ul style="padding-left: 50px;">
                     <li><span class="fatty">Можно ли запросить пробный проект?</span>
                         <ul>
                             <li class="margin italics">Да, в нашей компании действует и очень приветствуется
@@ -383,7 +391,6 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
                 <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
                 <div class="answer"></div>

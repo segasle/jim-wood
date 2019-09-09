@@ -49,6 +49,9 @@ div:before {
 .go {
   background: #357e7e;
 }
+.tab {
+  padding-left: 30px;
+}
 button.btn {
   white-space: normal;
   text-align: center;
@@ -251,6 +254,9 @@ header {
 }
 .block_three {
   padding-bottom: 80px;
+}
+.block_four {
+  border-top: 2px solid black;
 }
 .block_bg {
   position: relative;
