@@ -9,6 +9,7 @@
 .fa-instagram {
   background: linear-gradient(240deg, #ff0035 30%, #b16afa 70%);
   border-radius: 10px;
+  color: #fff;
   padding: 5px 10px;
 }
 * {
@@ -72,6 +73,9 @@ button.btn {
   z-index: 2;
   position: absolute;
   display: block;
+}
+.border-right {
+  border-right: 2px solid #000;
 }
 button.mod {
   float: left;
@@ -256,6 +260,7 @@ header {
   padding-bottom: 80px;
 }
 .block_four {
+  border-top: 5px solid black;
   border-image: url("/img/border.png") 30 round round;
   -webkit-border-image: url("/img/border.png") 1 repeat;
 }

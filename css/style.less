@@ -11,6 +11,7 @@
   &-instagram {
     background: @bg-ins;
     border-radius: 10px;
+    color: @bg;
     padding: 5px 10px;
   }
 }
@@ -86,7 +87,11 @@ button.btn {
     display: block;
   }
 }
-
+.border{
+  &-right{
+    border-right: 2px solid @cr;
+  }
+}
 button.mod {
   float: left;
   margin-top: 5px;
@@ -340,7 +345,7 @@ header {
     padding-bottom: 80px;
   }
   &_four{
-  //  border-top: 5px solid black;
+    border-top: 5px solid black;
     border-image: url("/img/border.png") 30 round round;
     -webkit-border-image: url("/img/border.png") 1 repeat;
   }
