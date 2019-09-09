@@ -92,10 +92,6 @@ button.mod {
 
 header {
   width: 100%;
-
-  .row {
-    align-items: center;
-  }
 }
 
 .logo {
@@ -134,7 +130,18 @@ header {
 .italics {
   font-style: italic;
 }
-
+.container {
+  &-fluid{
+    padding: 0;
+  }
+}
+.overflow{
+  &-x{
+    &-hidden{
+      overflow-x: hidden;
+    }
+  }
+}
 .menu {
   position: relative;
   height: 100%;
@@ -326,7 +333,9 @@ header {
 }
 
 .block {
-  //height: inherit;
+  &_three{
+    padding-bottom: 80px;
+  }
   &_bg {
     position: relative;
 
@@ -419,6 +428,11 @@ table {
 }
 
 @media (min-width: 768px) {
+  .header{
+    .row {
+      align-items: center;
+    }
+  }
   .fa {
     &-align {
       &-justify {

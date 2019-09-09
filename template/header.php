@@ -127,7 +127,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid overflow-x-hidden">
     <header>
         <div class="header">
             <div class="row">
