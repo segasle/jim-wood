@@ -134,7 +134,7 @@
     <header>
         <div class="header">
             <div class="row">
-                <div class="col-xl-2 col-sm-5 col-md-3 col-lg-3 col-6">
+                <div class="col-xl-4 col-sm-5 col-md-3 col-lg-4 col-6">
                     <div class="row align-items-center">
                         <div class="col-6">
                             <div class="logo">
@@ -149,7 +149,7 @@
                     </div>
 
                 </div>
-                <div class="col-xl-10 col-sm-7 col-md-9 col-lg-9 col-6">
+                <div class="col-xl-8 col-sm-7 col-md-9 col-lg-8 col-6">
                     <div class="menu">
                         <input type="checkbox" id="checkbox">
                         <label class="burger label-none" for="checkbox">
