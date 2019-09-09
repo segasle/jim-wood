@@ -81,6 +81,9 @@ button.mod {
   float: left;
   margin-top: 5px;
 }
+.slogan {
+  font-size: 30px;
+}
 header {
   width: 100%;
 }
