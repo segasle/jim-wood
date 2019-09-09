@@ -351,7 +351,8 @@
         </div>
         <div class="row align-items-center">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <ul style="padding-left: 50px;">
+                <ul style="padding-left: 50px;
+">
                     <li><span class="fatty">Можно ли запросить пробный проект?</span>
                         <ul>
                             <li class="margin italics">Да, в нашей компании действует и очень приветствуется
