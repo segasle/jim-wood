@@ -1,4 +1,4 @@
-<div class="block-center" style="max-width: 100%;">
+<div class="block-center" style="padding: 30px 0;">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-6 col-col-lg-10 col-xl-11">
             <div style="border-right: 2px solid black;">
