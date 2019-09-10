@@ -135,16 +135,14 @@
         <div class="header">
             <div class="row">
                 <div class="col-xl-4 col-sm-5 col-md-3 col-lg-4 col-6">
-                    <div class="row align-items-center">
-                        <div class="col-6">
-                            <div class="logo">
-                                <a href="/" class="link"></a>
-                            </div>
+                    <div class="pull-left">
+                        <div class="logo">
+                            <a href="/" class="link"></a>
                         </div>
-                        <div class="col-6">
-                            <div class="slogan">Столярная
-                                <br> Мастерская
-                            </div>
+                    </div>
+                    <div class="pull-left">
+                        <div class="slogan">Столярная
+                            <br> Мастерская
                         </div>
                     </div>
 
