@@ -92,6 +92,16 @@ button.btn {
     border-right: 2px solid @cr;
   }
 }
+.order{
+  &-xs{
+    &-0{
+      order: 0;
+    }
+    &-1{
+      order: 1;
+    }
+  }
+}
 button.mod {
   float: left;
   margin-top: 5px;
@@ -100,7 +110,7 @@ button.mod {
 .slogan{
   padding-top: 25px;
   padding-left: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 header {
   width: 100%;
@@ -445,6 +455,7 @@ table {
 }
 
 @media (min-width: 768px) {
+
   .header{
     .row {
       align-items: center;
@@ -544,6 +555,17 @@ table {
 }
 
 @media (min-width: 576px) {
+
+  .order{
+    &-xs{
+      &-0{
+        order: inherit;
+      }
+      &-1{
+        order: inherit;
+      }
+    }
+  }
 }
 
 // Средние девайсы («таблетки», >= 768px)

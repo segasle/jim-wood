@@ -77,6 +77,12 @@ button.btn {
 .border-right {
   border-right: 2px solid #000;
 }
+.order-xs-0 {
+  order: 0;
+}
+.order-xs-1 {
+  order: 1;
+}
 button.mod {
   float: left;
   margin-top: 5px;
@@ -84,7 +90,7 @@ button.mod {
 .slogan {
   padding-top: 25px;
   padding-left: 10px;
-  font-size: 30px;
+  font-size: 25px;
 }
 header {
   width: 100%;
@@ -387,6 +393,14 @@ table tr td ul {
 @media (min-width: 1700px) {
   .carousel-item .img {
     max-height: 600px;
+  }
+}
+@media (min-width: 576px) {
+  .order-xs-0 {
+    order: inherit;
+  }
+  .order-xs-1 {
+    order: inherit;
   }
 }
 @media (min-width: 992px) {
