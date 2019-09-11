@@ -271,9 +271,11 @@ header {
   padding-bottom: 80px;
 }
 .block_four {
-  border-top: 5px solid black;
-  border-image: url("/img/border.png") 30 round round;
-  -webkit-border-image: url("/img/border.png") 1 repeat;
+  border-top: 40px solid black;
+  -moz-border-image: url("/img/border.png") 49% round repeat;
+  -webkit-border-image: url("/img/border.png") 49% round repeat;
+  -o-border-image: url("/img/border.png") 49% round repeat;
+  border-image: url("/img/border.png") 49% round repeat;
 }
 .block_bg {
   position: relative;
@@ -288,7 +290,7 @@ header {
   font-weight: bold;
 }
 .block_text-descriptions p {
-  text-align: justify;
+  text-align: left;
 }
 .block_text-descriptions p span {
   padding-left: 30px;
@@ -367,6 +369,9 @@ table tr td ul {
   }
   .menu nav .btn {
     width: auto;
+  }
+  .block_text-descriptions p {
+    text-align: justify;
   }
   .carousel-item .img {
     max-height: 470px;
