@@ -79,28 +79,28 @@
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/5/IMG_5056.JPG">
-                    <img class="img-fluid" src="/img/5/IMG_5056.JPG">
+                <a data-fancybox="gallery" href="/img/5/IMG_5056.jpg">
+                    <img class="img-fluid" src="/img/5/IMG_5056.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/5/IMG_5092.JPG">
-                    <img class="img-fluid" src="/img/5/IMG_5092.JPG">
+                <a data-fancybox="gallery" href="/img/5/IMG_5092.jpg">
+                    <img class="img-fluid" src="/img/5/IMG_5092.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/5/IMG_5098.JPG">
-                    <img class="img-fluid" src="/img/5/IMG_5098.JPG">
+                <a data-fancybox="gallery" href="/img/5/IMG_5098.jpg">
+                    <img class="img-fluid" src="/img/5/IMG_5098.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/5/IMG_5192.JPG">
-                    <img class="img-fluid" src="/img/5/IMG_5192.JPG">
+                <a data-fancybox="gallery" href="/img/5/IMG_5192.jpg">
+                    <img class="img-fluid" src="/img/5/IMG_5192.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/5/IMG_5211.JPG">
-                    <img class="img-fluid" src="/img/5/IMG_5211.JPG">
+                <a data-fancybox="gallery" href="/img/5/IMG_5211.jpg">
+                    <img class="img-fluid" src="/img/5/IMG_5211.jpg">
                 </a>
             </div>
         </div>
