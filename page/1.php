@@ -52,93 +52,123 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <a data-fancybox="gallery" href="/img/1/_DSC0128.jpg">
-            <img class="img-fluid" src="/img/1/_DSC0128.jpg">
+        <a data-fancybox="gallery" href="/img/1/DSCF7947.jpg">
+            <img class="img-fluid" src="/img/1/DSCF7947.jpg">
         </a>
         <div class="row">
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0001(1).jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0001(1).jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7734.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7734.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0002(1).jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0002(1).jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7738.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7738.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0015.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0015.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7951.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7951.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0024.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0024.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7957.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7957.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0033.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0033.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7960.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7960.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0147.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0147.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7966-2.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7966-2.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0148.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0148.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7968.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7968.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0149.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0149.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7971.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7971.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0157.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0157.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7972.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7972.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0158.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0158.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7977.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7977.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0162.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0162.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7978.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7978.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0059.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0059.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7980.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7980.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0110.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0110.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7984-2.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7984-2.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0121.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0121.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7997.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7997.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0133.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0133.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7964-2.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7964-2.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0141.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0141.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7959-2.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7959-2.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/1/_DSC0143.jpg">
-                    <img class="img-fluid" src="/img/1/_DSC0143.jpg">
+                <a data-fancybox="gallery" href="/img/1/DSCF7979.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7979.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/1/DSCF7979(1).jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7979(1).jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/1/DSCF7982.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7982.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/1/DSCF7990.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7990.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/1/DSCF7995.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7995.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/1/DSCF7998.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7998.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/1/DSCF7999.jpg">
+                    <img class="img-fluid" src="/img/1/DSCF7999.jpg">
                 </a>
             </div>
         </div>
@@ -158,7 +188,7 @@
                     <p class="text-center">Место проекта</p>
                 </td>
                 <td>
-                    <p class="text-center">г. Москва</p>
+                    <p class="text-center">г. Нальчик</p>
                 </td>
             </tr>
             <tr>
@@ -183,11 +213,11 @@
                 </td>
                 <td>
                     <ul>
-                        <li>фасады: МДФ, крашеные с обеих сторон зеленой матовой эмалью, фасады в стиле шейкер</li>
-                        <li>столешница: гранит</li>
-                        <li>фартук: стеклянная плитка</li>
-                        <li>имеется 2 монолитных раковины: двойная в основном корпусе и одинарная в острове</li>
-                        <li>встроенная техника из нержавеющей стали</li>
+                        <li>фасады: МДФ, с внешней рамкой, крашеные с обеих сторон матовой эмалью</li>
+                        <li>столешница и фартук: искусственный камень</li>
+                        <li>двойная монолитная раковина</li>
+                        <li>ручки с финишной отделкой «античная бронза»</li>
+                        <li>черная встроенная техника</li>
                         <li>Фурнитура марки BLUM</li>
                     </ul>
                 </td>
@@ -197,7 +227,7 @@
                     <p class="text-center">Дизайнер</p>
                 </td>
                 <td>
-                    <p class="text-center">Елена Яковлева</p>
+                    <p class="text-center">Любовь Тувакина</p>
                 </td>
             </tr>
         </table>
