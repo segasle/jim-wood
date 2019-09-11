@@ -21,8 +21,8 @@
 </div>
 <div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <a data-fancybox="gallery" href="/img/2/IMG_3458.jpg">
-            <img class="img-fluid" src="/img/2/IMG_3458.jpg">
+        <a data-fancybox="gallery" href="/img/2/_DSC0128.jpg">
+            <img class="img-fluid" src="/img/2/_DSC0128.jpg">
         </a>
         <div class="row">
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
