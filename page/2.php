@@ -81,23 +81,33 @@
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3511.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3511.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0059.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0059.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3501.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3501.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0110.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0110.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3491.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3491.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0121.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0121.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3470.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3470.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0133.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0133.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/2/_DSC0141.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0141.jpg">
+                </a>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
+                <a data-fancybox="gallery" href="/img/2/_DSC0143.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0143.jpg">
                 </a>
             </div>
         </div>
@@ -125,7 +135,7 @@
                     <p class="text-center">Стиль</p>
                 </td>
                 <td>
-                    <p class="text-center">Современный минимализм</p>
+                    <p class="text-center">Современная классика с элементами шейкер</p>
                 </td>
             </tr>
             <tr>
@@ -133,7 +143,7 @@
                     <p class="text-center">Тип планировки</p>
                 </td>
                 <td>
-                    <p class="text-center">аллельная, островная</p>
+                    <p class="text-center">Угловая с островом</p>
                 </td>
             </tr>
             <tr>
@@ -142,11 +152,11 @@
                 </td>
                 <td>
                     <ul>
-                        <li>фасады: МДФ, крашеные с обеих сторон белой матовой эмалью, имеют интегрированные ручки</li>
-                        <li>столешница и фартук: мрамор</li>
-                        <li>двойная монолитная раковина</li>
-                        <li>встроенная техника: холодильник и посудомоечная машина
-                        </li>
+                        <li>фасады: МДФ, крашеные с обеих сторон зеленой матовой эмалью, фасады в стиле шейкер</li>
+                        <li>столешница: гранит</li>
+                        <li>фартук: стеклянная плитка</li>
+                        <li>имеется 2 монолитных раковины: двойная в основном корпусе и одинарная в острове</li>
+                        <li>встроенная техника из нержавеющей стали</li>
                         <li>Фурнитура марки BLUM</li>
                     </ul>
                 </td>
@@ -156,7 +166,7 @@
                     <p class="text-center">Дизайнер</p>
                 </td>
                 <td>
-                    <p class="text-center">Любовь Тувакина</p>
+                    <p class="text-center">Елена Яковлева</p>
                 </td>
             </tr>
         </table>
