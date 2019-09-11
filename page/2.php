@@ -26,58 +26,58 @@
         </a>
         <div class="row">
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3463.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3463.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0001(1).jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0001(1).jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3517.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3517.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0002(1).jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0002(1).jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3528.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3528.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0015.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0015.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3553.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3553.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0024.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0024.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3557.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3557.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0033.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0033.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3564.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3564.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0147.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0147.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3547-2.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3547-2.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0148.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0148.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_5771.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_5771.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0149.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0149.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3568.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3568.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0157.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0157.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3543.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3543.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0158.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0158.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
-                <a data-fancybox="gallery" href="/img/2/IMG_3534.jpg">
-                    <img class="img-fluid" src="/img/2/IMG_3534.jpg">
+                <a data-fancybox="gallery" href="/img/2/_DSC0162.jpg">
+                    <img class="img-fluid" src="/img/2/_DSC0162.jpg">
                 </a>
             </div>
             <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-3 pt-4">
