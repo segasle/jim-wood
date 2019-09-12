@@ -138,7 +138,7 @@
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <table class="w-100" border="1">
+        <table class="w-100 table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl" border="1">
             <tr>
                 <td>
                     <p class="text-center">Год завершения проекта</p>
