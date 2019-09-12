@@ -66,6 +66,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="carousel-item main-item third">
                 <div class="row">
                     <div class="col-md-5 col-12 order-xs-1 d-md-block order-sm-1">

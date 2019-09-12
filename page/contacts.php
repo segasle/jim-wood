@@ -3,7 +3,7 @@ $tel = '+7-965-681-5335';
 $mail = 'jim-owner@yandex.ru';
 
 ?>
-<div class="row">
+<div class="row padding">
     <div class="сol-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <h1>Контакты</h1>
         <p><span class="fatty">Адрес салона:</span></p>

@@ -347,26 +347,6 @@ table tr td ul {
 .cellar a {
   color: #fff;
 }
-@media (min-width: 992px) {
-  .carousel-item .img {
-    max-height: 350px;
-  }
-}
-@media (min-width: 1200px) {
-  .carousel-item .img {
-    max-height: 400px;
-  }
-}
-@media (min-width: 1500px) {
-  .carousel-item .img {
-    max-height: 500px;
-  }
-}
-@media (min-width: 1700px) {
-  .carousel-item .img {
-    max-height: 600px;
-  }
-}
 @media (min-width: 576px) {
   .order-xs-0 {
     order: inherit;
@@ -460,6 +440,26 @@ table tr td ul {
   .cellar-phone,
   .cellar-mail {
     font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item .img {
+    max-height: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-item .img {
+    max-height: 400px;
+  }
+}
+@media (min-width: 1500px) {
+  .carousel-item .img {
+    max-height: 500px;
+  }
+}
+@media (min-width: 1700px) {
+  .carousel-item .img {
+    max-height: 600px;
   }
 }
 /*# sourceMappingURL=style.css.map */
