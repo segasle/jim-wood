@@ -11,7 +11,7 @@
         </p>
     </div>
 </div>
-<div class="row">
+<div class="row padding">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <a data-fancybox="gallery" href="/img/kruglov/IMG_5511.jpg">
             <img class="img-fluid" src="/img/kruglov/IMG_5511.jpg">
