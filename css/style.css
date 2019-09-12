@@ -54,9 +54,11 @@ div:before {
   padding-left: 30px;
 }
 button.btn {
-  white-space: normal;
   text-align: center;
   width: 100%;
+}
+.btn {
+  white-space: normal;
 }
 .btn-outline-primary,
 .btn-primary {
@@ -92,9 +94,6 @@ button.mod {
   padding-left: 10px;
   font-size: 25px;
 }
-header {
-  width: 100%;
-}
 .logo {
   width: 100%;
 }
@@ -115,7 +114,7 @@ header {
   height: 100%;
 }
 .padding {
-  padding: 20px;
+  padding: 20px 5px;
 }
 .margin {
   margin: 10px;
@@ -217,7 +216,7 @@ header {
   color: #fff;
 }
 .carousel {
-  max-width: 96%;
+  max-width: 100%;
   margin: auto;
 }
 .carousel-text {
@@ -338,6 +337,13 @@ table tr td ul {
   color: #fff;
   padding-bottom: 0;
 }
+.cellar .block-center {
+  margin: 0;
+}
+.cellar-phone,
+.cellar-mail {
+  font-size: 16px;
+}
 .cellar a {
   color: #fff;
 }
@@ -376,6 +382,9 @@ table tr td ul {
   }
 }
 @media (min-width: 768px) {
+  .padding {
+    padding: 20px;
+  }
   .order-sm-0 {
     order: inherit;
   }
@@ -413,6 +422,9 @@ table tr td ul {
   .block_text-descriptions p {
     text-align: justify;
   }
+  .carousel {
+    max-width: 96%;
+  }
   .carousel-item .img {
     max-height: 470px;
   }
@@ -441,6 +453,13 @@ table tr td ul {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 900px;
+  }
+  .cellar .block-center {
+    margin: auto;
+  }
+  .cellar-phone,
+  .cellar-mail {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

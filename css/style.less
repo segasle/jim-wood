@@ -60,13 +60,19 @@ div {
 .go {
   background: @btn;
 }
-.tab{
+
+.tab {
   padding-left: @tab;
 }
+
 button.btn {
-  white-space: normal;
   text-align: center;
   width: 100%;
+}
+
+.btn {
+  white-space: normal;
+
 }
 
 .btn-outline-primary, .btn-primary {
@@ -87,33 +93,35 @@ button.btn {
     display: block;
   }
 }
-.border{
-  &-right{
+
+.border {
+  &-right {
     border-right: 2px solid @cr;
   }
 }
-.order{
-  &-xs{
-    &-0{
+
+.order {
+  &-xs {
+    &-0 {
       order: 0;
     }
-    &-1{
+
+    &-1 {
       order: 1;
     }
   }
 }
+
 button.mod {
   float: left;
   margin-top: 5px;
 
 }
-.slogan{
+
+.slogan {
   padding-top: 60px;
   padding-left: 10px;
   font-size: 25px;
-}
-header {
-  width: 100%;
 }
 
 .logo {
@@ -142,7 +150,7 @@ header {
 }
 
 .padding {
-  padding: 20px;
+  padding: 20px 5px;
 }
 
 .margin {
@@ -152,18 +160,21 @@ header {
 .italics {
   font-style: italic;
 }
+
 .container {
-  &-fluid{
+  &-fluid {
     padding: 0;
   }
 }
-.overflow{
-  &-x{
-    &-hidden{
+
+.overflow {
+  &-x {
+    &-hidden {
       overflow-x: hidden;
     }
   }
 }
+
 .menu {
   position: relative;
   height: 100%;
@@ -279,7 +290,7 @@ header {
 }
 
 .carousel {
-  max-width: 96%;
+  max-width: 100%;
   margin: auto;
 
   &-text {
@@ -355,17 +366,19 @@ header {
 }
 
 .block {
-  &_three{
+  &_three {
     padding-bottom: 80px;
   }
-  &_four{
-    @border: url("/img/border.png")  49% round repeat;
+
+  &_four {
+    @border: url("/img/border.png") 49% round repeat;
     border-top: 40px solid black;
-    -moz-border-image:  @border;
+    -moz-border-image: @border;
     -webkit-border-image: @border;
     -o-border-image: @border;
     border-image: @border;
   }
+
   &_bg {
     position: relative;
 
@@ -452,6 +465,15 @@ table {
   color: @bg;
   padding-bottom: 0;
 
+  .block {
+
+    &-center {
+      margin: 0;
+    }
+  }
+  &-phone, &-mail{
+    font-size: 16px;
+  }
   a {
     color: @bg;
   }
@@ -499,20 +521,23 @@ table {
 
 @media (min-width: 576px) {
 
-  .order{
-    &-xs{
-      &-0{
+  .order {
+    &-xs {
+      &-0 {
         order: inherit;
       }
-      &-1{
+
+      &-1 {
         order: inherit;
       }
     }
-    &-sm{
-      &-0{
+
+    &-sm {
+      &-0 {
         order: 0;
       }
-      &-1{
+
+      &-1 {
         order: 1;
       }
     }
@@ -520,22 +545,28 @@ table {
 }
 
 @media (min-width: 768px) {
+  .padding {
+    padding: 20px;
+  }
 
-  .order{
-    &-sm{
-      &-0{
+  .order {
+    &-sm {
+      &-0 {
         order: inherit;
       }
-      &-1{
+
+      &-1 {
         order: inherit;
       }
     }
   }
-  .header{
+
+  .header {
     .row {
       align-items: center;
     }
   }
+
   .fa {
     &-align {
       &-justify {
@@ -573,7 +604,8 @@ table {
       }
     }
   }
-  .block{
+
+  .block {
 
     &_text {
       &-descriptions {
@@ -583,7 +615,10 @@ table {
       }
     }
   }
+
   .carousel {
+    max-width: 96%;
+
     &-item {
       .img {
         //float: right;
@@ -595,6 +630,7 @@ table {
 
   .cellar {
     padding-right: 65px;
+
   }
 }
 
@@ -630,6 +666,18 @@ table {
         transform: translate(-50%, -50%);
         max-width: 900px;
       }
+    }
+  }
+
+  .cellar {
+    .block {
+      &-center {
+        margin: auto;
+      }
+    }
+
+    &-phone, &-mail{
+      font-size: 20px;
     }
   }
 }
