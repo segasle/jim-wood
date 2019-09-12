@@ -19,11 +19,14 @@ include 'function.php';
     if (!preg_match("/(^(?!\+.*\(.*\).*\-\-.*$)(?!\+.*\(.*\).*\-$)(\+[0-9]{1,3}\([0-9]{1,3}\)[0-9]{1}([-0-9]{0,8})?([0-9]{0,1})?)$)|(^[0-9]{1,4}$)/", "$phone")) {
         $errors[] = "Вы непраильно ввели номер телефона, пример: +7(915)5473712";
     }
-    if (!preg_match("/^(?!.*@.*@.*$)(?!.*@.*\-\-.*\..*$)(?!.*@.*\-\..*$)(?!.*@.*\-$)(.*@.+(\..{1,11})?)$/", "$email")) {
-        $errors[] = 'Вы неправильно ввели электронную почту';
-    }
+//    if (!preg_match("/^(?!.*@.*@.*$)(?!.*@.*\-\-.*\..*$)(?!.*@.*\-\..*$)(?!.*@.*\-$)(.*@.+(\..{1,11})?)$/", "$email")) {
+//        $errors[] = 'Вы неправильно ввели электронную почту';
+//    }
     if (empty($data['content'])) {
-        $errors[] = 'Не ввели сообщения';
+        $data['content'] = 0;
+    }
+    if (empty($email)) {
+        $email = 0;
     }
     if (empty($errors)) {
         if (isset($_FILES['file'])) {
@@ -68,7 +71,27 @@ include 'function.php';
                 echo '<div class="errors">Ошибка загрузки файла</div>';
             }
         } else {
-            echo '<div class="errors">Не выбран файл</div>';
+            $nameto ='Имя:' . $name ."<br>";
+            $phoneto ='Номер:' . $phone ."<br>";
+            $emailto ='Почта:' . $email ."<br>";
+            $txtto ='Сообщение:' . $data['content'] ."<br>";
+            $mess = $nameto.$phoneto.$emailto.$txtto;
+            $wer = do_query("INSERT INTO `feedback` (`email`, `name`, `phone`, `text`) VALUES ('{$email}','{$name}','{$phone}', '{$data['content']}')");
+            if (!empty($wer)) {
+                $to = 'jim-owner@yandex.ru';
+                $subject = 'обратная связь';
+                $message = "$mess";
+                $headers = 'From: segasle@kafe-lyi.ru' . "\r\n" .
+                    'Reply-To: segasle@kafe-lyi.ru' . "\r\n" .
+                    "Content-Type: text/html; charset=\"UTF-8\"\r\n"
+                    . 'X-Mailer: PHP/' . phpversion();
+                $mail = mail("$to", "$subject", "$message", "$headers");
+                if ($mail){
+                    echo '<div class="go">Успешно подано</div>';
+                }
+            } else {
+                echo $mysqli->error;
+            }
         }
     } else {
         echo '<div class="errors">'.array_shift($errors).'</div>';
