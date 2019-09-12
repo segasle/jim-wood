@@ -116,6 +116,9 @@ button.mod {
 .padding {
   padding: 20px 5px;
 }
+.padding-bottom {
+  padding-bottom: 20px;
+}
 .margin {
   margin: 10px;
 }
@@ -235,14 +238,10 @@ button.mod {
   background: #357e7e;
 }
 .carousel-control-next {
-  right: 15px;
+  right: 10px;
 }
 .carousel-control-prev {
-  left: 0;
-}
-.carousel-inner a[href="#carousel-one"],
-.carousel-inner a[href="#carousel-three"] {
-  background: antiquewhite;
+  left: 10px;
 }
 .carousel-caption {
   left: 0;
@@ -404,6 +403,12 @@ table tr td ul {
   }
   .carousel {
     max-width: 96%;
+  }
+  .carousel-control-next {
+    right: -5px;
+  }
+  .carousel-control-prev {
+    left: 0;
   }
   .carousel-item .img {
     max-height: 470px;

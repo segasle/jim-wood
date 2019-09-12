@@ -100,8 +100,7 @@
             <span class="sr-only">prev</span>
         </a>
 
-        <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next" onclick="main_right()"
-           style="right: -10px;">
+        <a class="carousel-control-next" href="#carousel-main" role="button" data-slide="next" onclick="main_right()">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">next</span>
         </a>

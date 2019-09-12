@@ -151,6 +151,9 @@ button.mod {
 
 .padding {
   padding: 20px 5px;
+  &-bottom{
+    padding-bottom: 20px;
+  }
 }
 
 .margin {
@@ -314,20 +317,15 @@ button.mod {
     }
 
     &-next {
-      right: 15px;
+      right: 10px;
     }
 
     &-prev {
-      left: 0;
+      left: 10px;
       //left: initial;
     }
   }
 
-  &-inner {
-    a[href="#carousel-one"], a[href="#carousel-three"] {
-      background: antiquewhite;
-    }
-  }
 
   &-caption {
     left: 0;
@@ -579,6 +577,16 @@ table {
   .carousel {
     max-width: 96%;
 
+    &-control {
+      &-next {
+        right: -5px;
+      }
+
+      &-prev {
+        left: 0;
+        //left: initial;
+      }
+    }
     &-item {
       .img {
         //float: right;
