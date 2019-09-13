@@ -145,14 +145,12 @@
                         <li>Фурнитура марки BLUM</li>
                     </ul>
                 </div>
-            </tr>
-            <tr>
-                <td>
-                    <p class="text-center">Дизайнер</p>
-                </td>
-                <td>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Дизайнер</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">Любовь Тувакина</p>
-                </td>
+                </div>
             </tr>
         </div>
     </div>
