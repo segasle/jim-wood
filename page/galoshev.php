@@ -140,82 +140,47 @@
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
         <div class="w-100 table">
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center fatty">Год завершения проекта</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center">2018</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center fatty">Место проекта</p>
-
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center">г. Чебоксары</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center fatty">Стиль</p>
-
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center">Итальянская классика</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center fatty">Тип планировки</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center">Параллельна, островная</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
-                    <div class="">
-                        <p class="text-center fatty">Ключевые особенности и задействованные материалы</p>
-                    </div>
+                    <p class="text-center fatty">Год завершения проекта</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <ul>
-                            <li>фасады: классика, рамочные, крашеные с обеих сторон, выступающая филенка</li>
-                            <li>столешница: кварцевый композит</li>
-                            <li>фартук: мрамор</li>
-                            <li>черная встроенная техника</li>
-                        </ul>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">2018</p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center fatty">Дизайнер</p>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Место проекта</p>
                 </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
-                        <p class="text-center">Елена Яковлева</p>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">г. Чебоксары</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Стиль</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">Итальянская классика</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Тип планировки</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">Параллельна, островная</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Ключевые особенности и задействованные материалы</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <ul>
+                        <li>фасады: классика, рамочные, крашеные с обеих сторон, выступающая филенка</li>
+                        <li>столешница: кварцевый композит</li>
+                        <li>фартук: мрамор</li>
+                        <li>черная встроенная техника</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Дизайнер</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">Елена Яковлева</p>
                 </div>
             </div>
         </div>
