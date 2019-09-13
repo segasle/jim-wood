@@ -57,6 +57,84 @@ button.btn {
   text-align: center;
   width: 100%;
 }
+.table {
+  display: table;
+}
+.table > .col,
+.table .col-1,
+.table .col-10,
+.table .col-11,
+.table .col-12,
+.table .col-2,
+.table .col-3,
+.table .col-4,
+.table .col-5,
+.table .col-6,
+.table .col-7,
+.table .col-8,
+.table .col-9,
+.table .col-auto,
+.table .col-lg,
+.table .col-lg-1,
+.table .col-lg-10,
+.table .col-lg-11,
+.table .col-lg-12,
+.table .col-lg-2,
+.table .col-lg-3,
+.table .col-lg-4,
+.table .col-lg-5,
+.table .col-lg-6,
+.table .col-lg-7,
+.table .col-lg-8,
+.table .col-lg-9,
+.table .col-lg-auto,
+.table .col-md,
+.table .col-md-1,
+.table .col-md-10,
+.table .col-md-11,
+.table .col-md-12,
+.table .col-md-2,
+.table .col-md-3,
+.table .col-md-4,
+.table .col-md-5,
+.table .col-md-6,
+.table .col-md-7,
+.table .col-md-8,
+.table .col-md-9,
+.table .col-md-auto,
+.table .col-sm,
+.table .col-sm-1,
+.table .col-sm-10,
+.table .col-sm-11,
+.table .col-sm-12,
+.table .col-sm-2,
+.table .col-sm-3,
+.table .col-sm-4,
+.table .col-sm-5,
+.table .col-sm-6,
+.table .col-sm-7,
+.table .col-sm-8,
+.table .col-sm-9,
+.table .col-sm-auto,
+.table .col-xl,
+.table .col-xl-1,
+.table .col-xl-10,
+.table .col-xl-11,
+.table .col-xl-12,
+.table .col-xl-2,
+.table .col-xl-3,
+.table .col-xl-4,
+.table .col-xl-5,
+.table .col-xl-6,
+.table .col-xl-7,
+.table .col-xl-8,
+.table .col-xl-9,
+.table .col-xl-auto {
+  padding: 0;
+}
+.table-cell {
+  display: table-cell;
+}
 .btn {
   white-space: normal;
 }
@@ -75,6 +153,9 @@ button.btn {
   z-index: 2;
   position: absolute;
   display: block;
+}
+.border {
+  border: 1px solid #000 !important;
 }
 .border-right {
   border-right: 2px solid #000;
@@ -278,6 +359,13 @@ button.mod {
 }
 .block-border {
   padding-bottom: 80px;
+}
+.block_four {
+  border-top: 40px solid black;
+  -moz-border-image: url("/img/border.png") 49% round repeat;
+  -webkit-border-image: url("/img/border.png") 49% round repeat;
+  -o-border-image: url("/img/border.png") 49% round repeat;
+  border-image: url("/img/border.png") 49% round repeat;
 }
 .block_bg {
   position: relative;
