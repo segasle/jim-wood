@@ -106,44 +106,36 @@
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <table class="w-100 table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl" border="1">
-            <tr>
-                <td>
-                    <p class="text-center">Год завершения проекта</p>
-                </td>
-                <td>
+        <div class="w-100 table">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Год завершения проекта</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">2019</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="text-center">Место проекта</p>
-                </td>
-                <td>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Место проекта</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">г. Москва</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="text-center">Стиль</p>
-                </td>
-                <td>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Стиль</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">Современный хай-тек</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="text-center">Тип планировки</p>
-                </td>
-                <td>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Тип планировки</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">П-образная с полуостровом</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="text-center">Ключевые особенности и задействованные материалы</p>
-                </td>
-                <td>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Ключевые особенности и задействованные материалы</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <ul>
                         <li>фасады: МДФ, крашеные с обеих сторон белой матовой эмалью, </li>
                         <li>столешница: кварцевый композит</li>
@@ -152,7 +144,7 @@
                         <li>встроенная техника из нержавеющей стали</li>
                         <li>Фурнитура марки BLUM</li>
                     </ul>
-                </td>
+                </div>
             </tr>
             <tr>
                 <td>
@@ -162,6 +154,7 @@
                     <p class="text-center">Любовь Тувакина</p>
                 </td>
             </tr>
-        </table>
+        </div>
+    </div>
     </div>
 </div>
