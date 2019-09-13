@@ -98,6 +98,15 @@ button.btn {
   &-right {
     border-right: 2px solid @cr;
   }
+
+  &-top {
+    max-width: 100%;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    box-shadow: 7px 4px 12px 2px black;
+    margin: auto;
+  }
 }
 
 .order {
@@ -151,7 +160,8 @@ button.mod {
 
 .padding {
   padding: 20px 5px;
-  &-bottom{
+
+  &-bottom {
     padding-bottom: 20px;
   }
 }
@@ -368,13 +378,17 @@ button.mod {
     padding-bottom: 80px;
   }
 
+  &-border {
+    padding-bottom: 80px;
+  }
+
   &_four {
     @border: url("/img/border.png") 49% round repeat;
-    border-top: 40px solid black;
-    -moz-border-image: @border;
-    -webkit-border-image: @border;
-    -o-border-image: @border;
-    border-image: @border;
+    //border-top: 40px solid black;
+    //-moz-border-image: @border;
+    //-webkit-border-image: @border;
+    //-o-border-image: @border;
+    //border-image: @border;
   }
 
   &_bg {
@@ -469,9 +483,11 @@ table {
       margin: 0;
     }
   }
-  &-phone, &-mail{
+
+  &-phone, &-mail {
     font-size: 16px;
   }
+
   a {
     color: @bg;
   }
@@ -587,6 +603,7 @@ table {
         //left: initial;
       }
     }
+
     &-item {
       .img {
         //float: right;
@@ -644,7 +661,7 @@ table {
       }
     }
 
-    &-phone, &-mail{
+    &-phone, &-mail {
       font-size: 20px;
     }
   }

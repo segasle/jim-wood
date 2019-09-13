@@ -79,6 +79,14 @@ button.btn {
 .border-right {
   border-right: 2px solid #000;
 }
+.border-top {
+  max-width: 100%;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 7px 4px 12px 2px black;
+  margin: auto;
+}
 .order-xs-0 {
   order: 0;
 }
@@ -268,12 +276,8 @@ button.mod {
 .block_three {
   padding-bottom: 80px;
 }
-.block_four {
-  border-top: 40px solid black;
-  -moz-border-image: url("/img/border.png") 49% round repeat;
-  -webkit-border-image: url("/img/border.png") 49% round repeat;
-  -o-border-image: url("/img/border.png") 49% round repeat;
-  border-image: url("/img/border.png") 49% round repeat;
+.block-border {
+  padding-bottom: 80px;
 }
 .block_bg {
   position: relative;
