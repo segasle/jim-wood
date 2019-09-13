@@ -93,22 +93,20 @@
         </div>
     </div>
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <table class="w-100 table table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl" border="1">
-            <tr>
-                <td>
-                    <p class="text-center">Год завершения проекта</p>
-                </td>
-                <td>
+        <div class="w-100 table">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Год завершения проекта</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">2019</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="text-center">Место проекта</p>
-                </td>
-                <td>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Место проекта</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">г. Москва</p>
-                </td>
+                </div>
             </tr>
             <tr>
                 <td>
@@ -149,6 +147,7 @@
                     <p class="text-center">Любовь Тувакина</p>
                 </td>
             </tr>
-        </table>
+        </div>
+        </div>
     </div>
 </div>
