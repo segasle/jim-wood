@@ -136,7 +136,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">Елена Яковлева</p>
                 </div>
-            </tr>
+                </div>
         </div>
     </div>
 </div>
