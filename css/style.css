@@ -135,6 +135,14 @@ button.btn {
 .table-cell {
   display: table-cell;
 }
+.table ul {
+  padding-left: 35px;
+  padding-right: 15px;
+  list-style: circle;
+}
+.table p {
+  padding-left: 10px;
+}
 .btn {
   white-space: normal;
 }

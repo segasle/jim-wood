@@ -189,9 +189,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="border">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <div class="">
                         <p class="text-center fatty">Ключевые особенности и задействованные материалы</p>
                     </div>
                 </div>
