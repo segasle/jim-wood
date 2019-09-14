@@ -133,51 +133,42 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
                     <p class="text-center">г. Москва</p>
                 </div>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-center">Стиль</p>
-                    </td>
-                    <td>
-                        <p class="text-center">Современный стиль шейкер с элементами традиционной классики</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-center">Тип планировки</p>
-                    </td>
-                    <td>
-                        <p class="text-center">П-образная</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-center">Ключевые особенности и задействованные материалы</p>
-                    </td>
-                    <td>
-                        <ul>
-                            <li>фасады: в стиле шейкер, крашеные с обеих сторон, утопленная филенка, окрашены матовой
-                                эмалью (смесь двух цветов – белого и голубого)
-                            </li>
-                            <li>столешница: акриловый камень</li>
-                            <li>ящики с лотками из массива дуба, ящик для фруктов из дуба, полки из сращенных досок,
-                                деревянные подносы (входят в фурнитур наподобие ящиков)
-                            </li>
-                            <li>все деревянные поверхности окрашены тиковым маслом для сохранения натурального цвета
-                                древесины
-                            </li>
-                            <li>одинарная монолитная раковина</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-center">Дизайнер</p>
-                    </td>
-                    <td>
-                        <p class="text-center">Анастасия Соловьева</p>
-                    </td>
-                </tr>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Стиль</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">Современный стиль шейкер с элементами традиционной классики</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Тип планировки</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">П-образная</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Ключевые особенности и задействованные материалы</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <ul>
+                        <li>фасады: в стиле шейкер, крашеные с обеих сторон, утопленная филенка, окрашены матовой
+                            эмалью (смесь двух цветов – белого и голубого)
+                        </li>
+                        <li>столешница: акриловый камень</li>
+                        <li>ящики с лотками из массива дуба, ящик для фруктов из дуба, полки из сращенных досок,
+                            деревянные подносы (входят в фурнитур наподобие ящиков)
+                        </li>
+                        <li>все деревянные поверхности окрашены тиковым маслом для сохранения натурального цвета
+                            древесины
+                        </li>
+                        <li>одинарная монолитная раковина</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center fatty">Дизайнер</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 border">
+                    <p class="text-center">Анастасия Соловьева</p>
+                </div>
             </div>
         </div>
     </div>
