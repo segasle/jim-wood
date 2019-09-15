@@ -498,6 +498,9 @@ table tr td ul {
   .menu nav .btn {
     width: auto;
   }
+  .ul_margin-top {
+    margin-top: 180px;
+  }
   .block_text-descriptions p {
     text-align: justify;
   }

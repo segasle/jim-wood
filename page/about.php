@@ -343,16 +343,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h4 class="h2 text-center">Рубрика «вопрос-ответ»</h4>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
-
-            </div>
-        </div>
-        <div class="row align-items-center">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                <ul style="padding-left: 50px;
-">
+                <ul style="padding-left: 50px;" class="ul_margin-top">
                     <li><span class="fatty">Можно ли запросить пробный проект?</span>
                         <ul>
                             <li class="margin italics">Да, в нашей компании действует и очень приветствуется
@@ -392,6 +383,7 @@
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
                 <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
                 <div class="answer"></div>
