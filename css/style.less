@@ -92,6 +92,12 @@ button.btn {
   white-space: normal;
 
 }
+label.btn {
+  &-lg{
+    padding-top: 30px;
+  }
+
+}
 
 .btn-outline-primary, .btn-primary {
   background: @btn;
@@ -173,9 +179,6 @@ button.mod {
     margin: 0;
   }
 
-  &-content {
-    height: 100%;
-  }
 }
 
 .padding {
@@ -290,7 +293,7 @@ button.mod {
   &-control {
     &-lg {
       padding: 25px 1rem;
-      line-height: 0.5;
+      line-height: 1.5;
     }
   }
 
@@ -514,8 +517,12 @@ table {
 }
 
 @media (min-width: 576px) {
-
-  .order {
+  label.btn {
+    &-lg {
+      padding-top: 20px;
+    }
+  }
+    .order {
     &-xs {
       &-0 {
         order: inherit;
@@ -541,6 +548,20 @@ table {
 @media (min-width: 768px) {
   .padding {
     padding: 20px;
+  }
+
+  .form {
+    &-control {
+      &-lg {
+        padding: 25px 1rem;
+        line-height: 0.5;
+      }
+    }
+  }
+  .modal {
+    &-content {
+      min-height: 100%;
+    }
   }
 
   .order {

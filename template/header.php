@@ -107,7 +107,7 @@
                     <input type="hidden" name="_action" value="send_form">
                     <input type="hidden" name="form_id" value="11">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-12 col-sm-12 col-md-4 order-sm-1 order-xs-1">
                             <div class="form__submit field">
                                 <button type="submit" class="form__button button btn btn-success btn-lg" id="sendmodal">
                                     Посчитать
@@ -115,7 +115,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-12 col-sm-12 col-md-8 order-sm-0 order-xs-0">
                             <div class="form__agreement form__field--name_agreement is-required js-ajax-form__field js-ajax-form__field--agreement">
                                 Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
                             </div>
