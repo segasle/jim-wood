@@ -58,6 +58,7 @@ button.btn {
   width: 100%;
 }
 .table {
+  margin-top: 10px;
   display: table;
 }
 .table > .col,
@@ -141,6 +142,7 @@ button.btn {
   list-style: circle;
 }
 .table p {
+  padding-top: 10px;
   padding-left: 10px;
 }
 .btn {
@@ -238,6 +240,7 @@ button.mod {
   position: absolute;
   right: 5px;
   top: 5px;
+  z-index: 5;
 }
 .menu #checkbox {
   display: none;
@@ -387,6 +390,9 @@ button.mod {
   color: #fff;
   font-weight: bold;
 }
+.block_text-descriptions {
+  padding: 0 10px;
+}
 .block_text-descriptions p {
   text-align: left;
 }
@@ -413,6 +419,9 @@ button.mod {
 .block_four ul li:focus > ul {
   display: block;
 }
+.ul_margin-left {
+  margin-left: 10px;
+}
 ul.list {
   list-style: circle;
   margin: 10px 0 0 30px;
@@ -420,16 +429,6 @@ ul.list {
 ul.list li {
   color: #fff;
   margin: 10px 0;
-}
-table {
-  table-layout: fixed;
-}
-table tr td {
-  padding: 10px;
-}
-table tr td ul {
-  margin-left: 15px;
-  list-style: disc;
 }
 .cellar {
   background: #357e7e;
@@ -464,6 +463,9 @@ table tr td ul {
   }
 }
 @media (min-width: 768px) {
+  .table {
+    margin-top: 0;
+  }
   .padding {
     padding: 20px;
   }
@@ -509,7 +511,10 @@ table tr td ul {
     width: auto;
   }
   .ul_margin-top {
-    margin-top: 180px;
+    margin-top: 120px;
+  }
+  .ul_margin-left {
+    margin-left: 50px;
   }
   .block_text-descriptions p {
     text-align: justify;

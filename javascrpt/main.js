@@ -18,6 +18,11 @@ $(function() {
     $(window).resize(f);
     f();
 
+    $('.fa-align-justify').on('click', function(e) {
+        e.preventDefault;
+        $(this).toggleClass('fa-times').removeClass('fa-align-justify');
+    });
+
     $(".phone-number").each(function() {
         $(this).mask("+7(999)999-99-99");
     });
@@ -39,8 +44,6 @@ $('#sendfrm').click(function(e) {
         }
     });
 });
-
-
 
 $('#sendmodal').click(function(e) {
     e.preventDefault();
