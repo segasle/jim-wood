@@ -343,7 +343,7 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h4 class="h2 text-center">Рубрика «вопрос-ответ»</h4>
-                <ul style="padding-left: 50px;" class="ul_margin-top">
+                <ul class="ul_margin-top ul_margin-left">
                     <li><span class="fatty">Можно ли запросить пробный проект?</span>
                         <ul>
                             <li class="margin italics">Да, в нашей компании действует и очень приветствуется
@@ -384,11 +384,12 @@
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <h5 class="h2 text-center">Онлайн форма обратной связи</h5>
-                <p style="margin: 10px auto; max-width: 300px;">Не нашли ответ на свой вопрос? Задайте его нам прямо
+                <p style="margin: 10px auto;">Не нашли ответ на свой вопрос? Задайте его нам прямо
                     сейчас, и мы с удовольствием вам ответим</p>
                 <div class="answer"></div>
                 <form action="" method="post"
-                      class="form js-ajax-form__form form-request block-center" id="form-form_mail" data-form_id="11" data-goal="">
+                      class="form js-ajax-form__form form-request block-center" id="form-form_mail" data-form_id="11"
+                      data-goal="">
                     <input type="hidden" name="token" value="<?php echo $_SESSION['csrf_token']; ?>"/>
                     <div class="field form__field form__field--name_person form__field--type_short_text is-required js-ajax-form__field js-ajax-form__field--person">
                         <label for="xflexfield_62" class="field__label">
