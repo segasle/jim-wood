@@ -18,10 +18,20 @@ $(function() {
     $(window).resize(f);
     f();
 
-    $('.fa-align-justify').on('click', function(e) {
+    /*$('.fa-align-justify').on('click', function(e) {
         e.preventDefault;
         $(this).toggleClass('fa-times').removeClass('fa-align-justify');
+    });*/
+
+    $('#mobileMenuBut').on('click', function(e) {
+        e.preventDefault;
+        if($(this).hasClass('fa-align-justify')) {
+            $(this).toggleClass('fa-times').removeClass('fa-align-justify');
+        } else {
+            $(this).toggleClass('fa-align-justify').removeClass('fa-times');
+        }
     });
+
 
     $(".phone-number").each(function() {
         $(this).mask("+7(999)999-99-99");

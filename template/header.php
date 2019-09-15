@@ -151,7 +151,7 @@
                     <div class="menu">
                         <input type="checkbox" id="checkbox">
                         <label class="burger label-none" for="checkbox">
-                            <div class="fas fa-align-justify fa-2x"></div>
+                            <div class="fas fa-align-justify fa-2x" id="mobileMenuBut"></div>
                         </label>
                         <nav>
                             <ul>
