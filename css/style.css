@@ -31,7 +31,7 @@
 .fa-instagram {
   -webkit-animation: animatebg 10s infinite linear;
   animation: animatebg 10s infinite linear;
-  background: linear-gradient(135deg, #5335cf 0, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+  background: linear-gradient(15deg, #cf8d02 10%, #de6c04 23%, #F61A61 27%, #425ade 96%, #5335cf 100%);
   border-radius: 10px;
   color: #fff;
   padding: 5px 10px;

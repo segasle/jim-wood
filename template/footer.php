@@ -25,7 +25,7 @@ $mail = 'jim-owner@yandex.ru';
                 <div class="row align-items-center">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-9">
                         <div class="pull-right">
-                            <p>заходите в наш инстаграм</p>
+                            <p>заходите в наш Instagram</p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
