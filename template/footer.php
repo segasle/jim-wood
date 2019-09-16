@@ -24,7 +24,9 @@ $mail = 'jim-owner@yandex.ru';
             <div class="col-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
                 <div class="row align-items-center">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-9">
-                        <p>заходите в наш инстаграм</p>
+                        <div class="pull-right">
+                            <p>заходите в наш инстаграм</p>
+                        </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                         <a href="https://www.instagram.com/jim_wood_/?igshid=yczjh842drd6" target="_blank"

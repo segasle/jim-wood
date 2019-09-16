@@ -5,10 +5,12 @@
 @btn: #357e7e;
 @hover: #068a1b;
 @ff: 'Merriweather', serif;
-@bg-ins: linear-gradient(240deg, rgb(255, 0, 53) 30%, rgb(177, 106, 250) 70%);
+@bg-ins: linear-gradient(135deg, #5335cf 0, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
 @tab: 30px;
 .fa {
   &-instagram {
+    -webkit-animation: animatebg 10s infinite linear;
+    animation: animatebg 10s infinite linear;
     background: @bg-ins;
     border-radius: 10px;
     color: @bg;
@@ -487,6 +489,7 @@ button.mod {
     }
   }
 }
+
 ul.list {
   list-style: circle;
   margin: 10px 0 0 30px;
