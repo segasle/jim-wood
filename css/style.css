@@ -6,31 +6,7 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes animatebg {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: -1800px;
-  }
-  100% {
-    top: 0;
-  }
-}
-@keyframes animatebg {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: -1800px;
-  }
-  100% {
-    top: 0;
-  }
-}
 .fa-instagram {
-  -webkit-animation: animatebg 10s infinite linear;
-  animation: animatebg 10s infinite linear;
   background: linear-gradient(15deg, #cf8d02 10%, #de6c04 23%, #F61A61 27%, #425ade 96%, #5335cf 100%);
   border-radius: 10px;
   color: #fff;
