@@ -22,8 +22,15 @@ $mail = 'jim-owner@yandex.ru';
                 </div>
             </div>
             <div class="col-4 col-sm-4 col-md-6 col-lg-4 col-xl-4">
-                <a href="https://www.instagram.com/jim_wood_/?igshid=yczjh842drd6" target="_blank"
-                   class="fa fa-instagram fa-3x pull-right"></a>
+                <div class="row align-items-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-9">
+                        <p>заходите в наш инстаграм</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                        <a href="https://www.instagram.com/jim_wood_/?igshid=yczjh842drd6" target="_blank"
+                           class="fa fa-instagram fa-3x pull-right"></a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <p style="font-size: 13px; color: black;">Сайт сделан разработчиком <a href="https://ssd18.ru"
