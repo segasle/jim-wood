@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<?php include 'functions/head.php'; ?>
+    <?php include 'functions/head.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,8 +15,9 @@
     <meta name="robots" content="index, follow">
     <meta name="keywords"
           content="jim wood кухни, Кухни на заказ москва, Мебель на заказ москва, Кухни чебоксары, Кухни в современном стиле, Кухни Шейкер, Кухни в традиционном стиле">
-    <meta name="description" content="<?php echo $description; ?>">
-    <meta name="yandex-verification" content="e47699ed6530f97d" />
+    <meta name="description"
+          content="IM WOOD – мебельная компания, специализирующаяся на проектировании, производстве и монтаже кухонь, а также корпусной мебели в гостиную, прихожую, ванную, гардероб. Специализация - производство мебели на заказ, а также комплексная разработка и воплощение мебельных дизайн проектов.">
+    <meta name="yandex-verification" content="e47699ed6530f97d"/>
     <title><?php echo $title; ?></title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap&subset=cyrillic"
           rel="stylesheet">
@@ -28,19 +29,26 @@
     <link rel="stylesheet" href="css/style.css?t=<?php echo(microtime(true) . rand()); ?>">
     <link href="https://itchief.ru/examples/vendors/fancybox/jquery.fancybox.min.css" rel="stylesheet">
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(55369198, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/55369198" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/55369198" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
