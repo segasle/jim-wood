@@ -14,7 +14,7 @@
     <meta property="og:site_name" content="">
     <meta name="robots" content="index, follow">
     <meta name="keywords"
-          content="<?php echo $keywords; ?>">
+          content="jim wood кухни">
     <meta name="description" content="<?php echo $description; ?>">
     <title><?php echo $title; ?></title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap&subset=cyrillic"

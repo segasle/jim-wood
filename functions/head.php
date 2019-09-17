@@ -7,7 +7,7 @@
  */
 
 global $title;
-global $keywords;
+//global $keywords;
 global $description;
 $page = basename($_SERVER['REQUEST_URI']);
 //echo $page;
@@ -17,7 +17,7 @@ if (is_array($res) || is_object($res)){
     foreach ($res as $item) {
         if ($page == $item['meta_url']) {
             $title = $item['meta_title'] .' | jim wood - jim-wood.info';
-            $keywords = $item['meta_keywords'];
+  //          $keywords = $item['meta_keywords'];
             $description = $item['meta_description'];
         }
     }
