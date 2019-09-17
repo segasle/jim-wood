@@ -2,7 +2,7 @@
 
 global $mysqli;
 if (empty($mysqli)){
-    $mysqli = mysqli_connect('localhost', 'ch06403_jimwood', 'x58uMQw7', 'ch06403_jimwood');
+    $mysqli = mysqli_connect('localhost', 'jimwood_jimwood1', 'x58uMQw7', 'jimwood_jimwood1');
     mysqli_set_charset($mysqli, 'UTF8');
 }
 if (mysqli_connect_errno()){

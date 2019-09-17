@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-
+<?php include 'functions/head.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -14,9 +14,9 @@
     <meta property="og:site_name" content="">
     <meta name="robots" content="index, follow">
     <meta name="keywords"
-          content="<?php //echo $keywords; ?>">
-    <meta name="description" content="<?php //echo $description; ?>">
-    <title><?php //echo $title; ?></title>
+          content="<?php echo $keywords; ?>">
+    <meta name="description" content="<?php echo $description; ?>">
+    <title><?php echo $title; ?></title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap&subset=cyrillic"
           rel="stylesheet">
     <link rel="stylesheet" href="icons/css/all.css">
