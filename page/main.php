@@ -1,5 +1,5 @@
 <div class="gray">
-    <div id="carousel-main" class="carousel slide carousel-main" data-ride="carousel" data-interval="false">
+    <!--<div id="carousel-main" class="carousel slide carousel-main" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="carousel-item first main-item active">
                 <div class="row">
@@ -105,5 +105,65 @@
             <span class="sr-only">next</span>
         </a>
 
+    </div>!-->
+    <div class="row align-items-center">
+        <div class="col-12 col-sm-12 col-md-4">
+            <div class="carousel-text pl-3 pr-3">
+                <p class="h2 fatty">Кухни на заказ в любом стиле</p>
+                <p>А также корпусная мебель в гостиную, прихожую, ванную, гардероб</p>
+                <a href="?page=projects" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-8">
+            <div id="carousel-one" class="carousel slide carousel-one" data-ride="carousel"
+                 data-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item first-inner active">
+                        <div class="img">
+                            <img class="d-block img-fluid" src="/img/galoshes.jpg"
+                                 alt="slide">
+                        </div>
+                    </div>
+                    <div class="carousel-item first-inner">
+                        <div class="img">
+                            <img class="d-block img-fluid" src="/img/sukharkov.jpg"
+                                 alt="slide">
+                        </div>
+                    </div>
+                    <div class="carousel-item first-inner">
+                        <div class="img">
+                            <img class="d-block img-fluid" src="/img/Mitrofanova.jpg"
+                                 alt="slide">
+                        </div>
+                    </div>
+                    <div class="carousel-item first-inner">
+                        <div class="img">
+                            <img class="d-block img-fluid" src="/img/tub.jpg"
+                                 alt="slide">
+                        </div>
+                    </div>
+                    <div class="carousel-item first-inner">
+                        <div class="img">
+                            <img class="d-block img-fluid" src="/img/hallway.jpg"
+                                 alt="slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4">
+            <div class="carousel-text pl-3 pr-3">
+                <p class="h2 fatty">Молодой бренд с богатым прошлым и грандиозными планами</p>
+                <p>Высокие технологии производства, индивидуальный подход к клиенту, регулярная обратная
+                    связь</p>
+                <a href="?page=about" class="w-100 btn btn-outline-primary">Узнать больше о Jim Wood</a>
+            </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-8">
+            <video src="/video/main.mp4" autoplay="autoplay" controls="controls" muted="muted">
+                <source type="video/mp4" src="/video/main.mp4">
+
+            </video>
+        </div>
     </div>
 </div>
