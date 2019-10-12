@@ -107,15 +107,15 @@
 
     </div>!-->
     <div class="row align-items-center">
-        <div class="col-12 col-sm-12 col-md-4">
+        <div class="col-12 col-sm-12 col-md-4 order-xs-1 order-sm-1">
             <div class="carousel-text pl-3 pr-3">
                 <p class="h2 fatty">Кухни на заказ в любом стиле</p>
                 <p>А также корпусная мебель в гостиную, прихожую, ванную, гардероб</p>
                 <a href="?page=projects" class="w-100 btn btn-outline-primary">Посмотреть портфолио</a>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-8">
-            <div id="carousel-one" class="carousel slide carousel-one" data-ride="carousel"
+        <div class="col-12 col-sm-12 col-md-8 order-xs-0 order-sm-0">
+            <div id="carouselExampleControls" class="carousel slide carousel-one" data-ride="carousel"
                  data-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item first-inner active">
@@ -149,9 +149,20 @@
                         </div>
                     </div>
                 </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-4">
+    </div>
+    <div class="row align-items-center">
+        <div class="col-12 col-sm-12 col-md-4 order-xs-1 order-sm-1">
             <div class="carousel-text pl-3 pr-3">
                 <p class="h2 fatty">Молодой бренд с богатым прошлым и грандиозными планами</p>
                 <p>Высокие технологии производства, индивидуальный подход к клиенту, регулярная обратная
@@ -159,11 +170,14 @@
                 <a href="?page=about" class="w-100 btn btn-outline-primary">Узнать больше о Jim Wood</a>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-8">
-            <video src="/video/main.mp4" autoplay="autoplay" controls="controls" muted="muted">
-                <source type="video/mp4" src="/video/main.mp4">
+        <div class="col-12 col-sm-12 col-md-8 order-xs-0 order-sm-0">
+            <div class="padding">
 
-            </video>
+                <video src="/video/main.mp4" autoplay="autoplay" controls="controls" muted="muted">
+                    <source type="video/mp4" src="/video/main.mp4">
+
+                </video>
+            </div>
         </div>
     </div>
 </div>

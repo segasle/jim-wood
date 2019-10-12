@@ -40,6 +40,9 @@ div:before {
   clear: both;
   display: block;
 }
+video {
+  width: 100%;
+}
 .errors,
 .go {
   background: red;
