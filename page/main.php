@@ -120,13 +120,15 @@
                 <div class="carousel-inner">
                     <div class="carousel-item first-inner active">
                         <div class="img">
-                            <img class="d-block img-fluid" src="/img/galoshes.jpg"
+
+                            <img class="d-block img-fluid" src="/img/sukharkov.jpg"
                                  alt="slide">
                         </div>
                     </div>
                     <div class="carousel-item first-inner">
                         <div class="img">
-                            <img class="d-block img-fluid" src="/img/sukharkov.jpg"
+
+                            <img class="d-block img-fluid" src="/img/galoshes.jpg"
                                  alt="slide">
                         </div>
                     </div>
@@ -173,9 +175,10 @@
         <div class="col-12 col-sm-12 col-md-8 order-xs-0 order-sm-0">
             <div class="padding">
 
-                <video src="/video/main.mp4" autoplay="autoplay" controls="controls" muted="muted">
-                    <source type="video/mp4" src="/video/main.mp4">
-
+                <video autoplay="autoplay" controls="controls" muted="muted">
+                    <source type="video/mp4" src="/video/main(1).mp4">
+                    <source type="video/webm" src="/video/main.webm">
+                    <source type="video/ogv" src="/video/main.ogv">
                 </video>
             </div>
         </div>

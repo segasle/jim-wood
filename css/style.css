@@ -570,17 +570,17 @@ ul.list li {
 }
 @media (min-width: 992px) {
   .carousel-item .img {
-    max-height: 350px;
+    max-height: 500px;
   }
 }
 @media (min-width: 1200px) {
   .carousel-item .img {
-    max-height: 400px;
+    max-height: 550px;
   }
 }
 @media (min-width: 1500px) {
   .carousel-item .img {
-    max-height: 500px;
+    max-height: 650px;
   }
 }
 @media (min-width: 1700px) {
